@@ -36,7 +36,7 @@ gzip.
 
 Справка командной строки:
 
-`Usage:
+Usage:
     CSSgz
         shows usage information
     CSSgz <filename>
