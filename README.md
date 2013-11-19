@@ -41,7 +41,7 @@ dsfsdf
 dsfds 
     DFDS
 
-Usage:
+Usage:\n
     CSSgz
         shows usage information
     CSSgz <filename>
