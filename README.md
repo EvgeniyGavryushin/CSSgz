@@ -32,30 +32,7 @@ gzip.
 
 # 3. Использование
 
-Запускать `bin/CSSgz`
-
-Справка командной строки:
-
-sdsdsdf
-dsfsdf
-dsfds 
-    DFDS
-
-Usage:\n
-    CSSgz
-        shows usage information
-    CSSgz <filename>
-        prepares the CSS in <filename> for better compression by gzip and outputs the result to stdout
-    CSSgz <in_filename> <out_filename>
-    CSSgz -i <in_filename> -o <out_filename>
-    CSSgz --input <in_filename> --output <out_filename>
-        prepares the CSS in <in_filename> for better compression by gzip and outputs the result to <out_filename>
-    CSSgz -h
-    CSSgz --help
-        shows usage information
-    CSSgz -v    
-    CSSgz --version
-        shows the version number
+Запускать `bin/CSSgz` - выдает справочную информацию по использованию
 
 # 4. Авторы
 * идея и поддержка - Сергей Крыжановский (<skryzhanovsky@ya.ru>)
