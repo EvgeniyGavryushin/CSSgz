@@ -36,6 +36,11 @@ gzip.
 
 Справка командной строки:
 
+sdsdsdf
+dsfsdf
+dsfds 
+    DFDS
+
 Usage:
     CSSgz
         shows usage information
