@@ -6,6 +6,6 @@ while [ -h "$SELF_PATH" ]; do
     SELF_PATH=$(cd -- "$DIR" && cd -- $(dirname -- "$SYM") && pwd)/$(basename -- "$SYM")
 done
 
-CSSgz_HOME=$(dirname -- "$(dirname -- "$SELF_PATH")")
+CSSgzip_HOME=$(dirname -- "$(dirname -- "$SELF_PATH")")
 
-node $CSSgz_HOME/lib/CSSgz.js $@
+node $CSSgzip_HOME/lib/CSSgz.js $@
