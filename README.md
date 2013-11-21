@@ -36,23 +36,22 @@ CSSgz (CSS gzip) подготавливает css-файлы, после мин�
 
 В командной строке введите `bin/CSSgz` или `bin/CSSgz -h`, или `bin/CSSgz --help` - справочная информацию по использованию:
 
-`Usage:`
-
-    CSSgz
-        shows usage information
+    `Usage:
+        CSSgz
+            shows usage information
         
-    CSSgz <filename>
-        prepares the CSS in <filename> for better compression by gzip and outputs the result to stdout
-    CSSgz <in_filename> <out_filename>
-    CSSgz -i <in_filename> -o <out_filename>
-    CSSgz --input <in_filename> --output <out_filename>
-        prepares the CSS in <in_filename> for better compression by gzip and outputs the result to <out_filename>
-    CSSgz -h
-    CSSgz --help
-        shows usage information
-    CSSgz -v
-    CSSgz --version
-        shows the version number`
+        CSSgz <filename>
+            prepares the CSS in <filename> for better compression by gzip and outputs the result to stdout
+        CSSgz <in_filename> <out_filename>
+        CSSgz -i <in_filename> -o <out_filename>
+        CSSgz --input <in_filename> --output <out_filename>
+            prepares the CSS in <in_filename> for better compression by gzip and outputs the result to <out_filename>
+        CSSgz -h
+        CSSgz --help
+            shows usage information
+        CSSgz -v
+        CSSgz --version
+            shows the version number`
 
 # 4. Авторы
 * идея и поддержка - Сергей Крыжановский (<skryzhanovsky@ya.ru>)
