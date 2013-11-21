@@ -1,0 +1,1425 @@
+/* @endgroup DOWNLOAD PAGE [FREE BOX] */
+
+
+	/* @group PREMIUM DOWNLOAD (SMS and ClickandBuy) */
+#premium_download_box { padding:1em 3em; border-top:2px solid #c6d6e7; border-bottom:1px solid #c6d6e7; background-color:#f6fafe; }
+	#premium_download_box.dps_support { background:url(http://va3en.sftcdn.net/shared) 45px 104px no-repeat #f6fafe; }
+	#premium_download_box.click_buy { padding-bottom:40px; }
+	#premium_download_box h2 { color:#0e4185; font:2em Century Gothic, Arial, sans-serif; }
+		#premium_download_box h2 strong { color:#000; font-weight:normal; }
+	#premium_download_box .advice { margin-bottom:1em; font-size:1.3em; color:#0e4185; }
+	#premium_download_box.dps_support .advice strong { font-weight:normal; }
+		#premium_download_box .advice strong em { color:#000; font-style:normal; }
+	#premium_download_box #other_countries p { float:left; margin:3px 10px 17px 0; }
+	#premium_download_box #other_countries .pulldown { float:left; width:130px; }
+	#premium_download_box .js_pulldown { padding:2px 0 16px 0; }
+
+	#premium_download_box ol { clear:both; margin-left:2em; margin-bottom:1.5em; }
+	#premium_download_box.dps_support ol { margin:3em 0 3em 6em; }
+		#premium_download_box ol li { margin-bottom:.5em; }
+		#premium_download_box ol li span { background:#6991c2; color:#fff; font-weight:bold; padding:0 .3em; margin-right:.8em; }
+		#premium_download_box li.step1 ul li { display:block; position:relative; margin:0; padding:5px 0 0 53px; }
+
+	#premium_download_box input.download_l { position:absolute; right:30px; top:125px; width:171px; height:35px; border:0; cursor:pointer; color:#006BC1; }
+	#premium_download_box.dps_support input.download_l { top:142px; }
+	#premium_download_box .legal { font-size:.8em; line-height:1.5em; color:#666; }
+
+	#clickandbuy_box .default_currency, #paypal_box .default_currency { clear:left; color:#000; font-size:10px; padding:0; display:inline; }
+
+	#paypal_box { border-bottom:1px solid #C6D6E7; }
+
+	#mopay_box, #premium_AT, #premium_CH { border-top:1px solid #B6CEE6; margin-top:5px; }
+		#mopay_box p, #premium_download_box .premium_other_box p, .premium_other_box p { background:url(http://va1en.sftcdn.net/images) 2px 15px no-repeat transparent; margin:0; padding:10px 0 0 45px; }
+		#premium_download_box #premium_AT p { background-image:url(http://va1en.sftcdn.net/images); }
+		#premium_download_box #premium_CH p { background-image:url(http://va1en.sftcdn.net/images); }
+		#mopay_box .download_l, #premium_download_box .premium_other_box .download_l { right:0; top:20px; position:absolute; }
+
+	#form_mopay_transaction { width:700px; height:100%; }
+	#form_mopay_transaction iframe { height:460px; }
+	.Rojo { clear:both; font-size:11px; }
+	#form_mopay_transaction.on { margin:4px 0pt 30px 30px; }
+	#premium_download_box #mopay_go { margin-top:0; }
+	* html #premium_download_box #mopay_go { margin-top:-10px; }
+
+	#premium_download_box .premium_other_go { margin:5px 18px 17px 120px; display:none; }
+	#premium_download_box .premium_other_go ol { list-style-type:decimal; margin-left:37px; }
+		#premium_download_box .premium_other_go li { padding:0; font-size:12px; }
+			#premium_download_box .premium_other_go li em { font-size:14px; }
+
+		.title_download { width:100%; background:transparent url(http://va4en.sftcdn.net/shared) no-repeat scroll 0pt -369px; }
+		.title_download span { font:bold 22px "Trebuchet Ms", Arial, sans-serif; text-transform:none; color:#3B3B3B; position:relative; clear:both; padding-left:9px; margin-bottom:9px; height:28px; }
+		#premium_CH_and, #premium_AT_and, #premium_FR_and { margin:0 18px 20px 0; position:relative; padding:10px 0; clear:both; }
+		#premium_CH_and p { background-image:url(http://va1en.sftcdn.net/images); }
+		#premium_AT_and p { background-image:url(http://va1en.sftcdn.net/images); }
+		#premium_FR_and p { background-image:url(http://va1en.sftcdn.net/images); height:40px; }
+		#premium_CH_go, #premium_AT_go, #premium_FR_go { padding:0; min-height:90px; margin-bottom:50px; }
+		#premium_CH_go ol, #premium_AT_go ol, #premium_FR_go ol { list-style-type:decimal; margin-left:110px; }
+		#premium_CH_go li, #premium_AT_go li, #premium_FR_go li { padding:0; font-size:12px; line-height:26px; }
+		#premium_CH_go li em, #premium_AT_go li em, #premium_FR_go li em { font-size:14px; font-weight:bold; }
+		#premium_CH_go strong, #premium_AT_go strong, #premium_FR_go strong { color:red; }
+		#premium_CH_go label, #premium_AT_go label, #premium_FR_go label { color:#004080; font-weight:bold; }
+
+	#premium_download_box #premium_AT_go.on { border-bottom:1px solid #B6CEE6; }
+
+	#premium_download_individual { margin:0px 0px 100px 0px; }
+	#premium_download_individual .premium_other_box p { background:none; margin:9px 0; padding:0; float:none; }
+	#premium_download_individual h1 a { font-size:30px; color:#999; font-weight:normal; }
+	#premium_download_individual h1 strong, #premium_download_individual h2 { color:#3B3B3B; }
+	#premium_download_individual h2 { font-family:"Trebuchet Ms", Arial, sans-serif; font-size:20px; font-size-adjust:none; font-weight:bold; height:31px; width:100%; clear:both; position:relative; background:url(http://va4en.sftcdn.net/shared) no-repeat scroll 0px -375px; padding:0 0 0px 10px; margin:25px 0px; }
+
+	#premium_download_box.test2SD { background:url(http://va2en.sftcdn.net/images) 0 0 no-repeat transparent; }
+
+	.premium_option_box { position:relative; clear:both; padding:1em 0; }
+		.premium_option_box .premium_info { float:left; width:74%; padding:0; margin:0; }
+		.premium_option_box .premium_link { float:right; padding:0; margin:0; }
+		.premium_option_box dl { position:absolute; right:185px; top:24px; font-weight:bold; width:20%; }
+		.premium_option_box dt { float:left; color:#666; padding-right:0.6em; }
+		.premium_option_box dd { float:left; color:#C00; }
+		.premium_option_box img { float:left; }
+		.premium_option_box span { float:left; padding:1em; width:52%; }
+
+	#premium_download_box #clickandbuy_box .download_l { top:10px; right:0; width:163px; padding-bottom:0; }
+	#premium_download_box #clickandbuy_box .clickandbuy_link { font-size:.9em; }
+
+	#container #clickandbuy_go, #container #paypal_go { display:none; overflow:hidden; width:auto; clear:both; margin:5em 0 0; }
+		#container #clickandbuy_go img, #container #paypal_go img { float:left; margin:-7px 8px 0 0; }
+	/* @endgroup PREMIUM DOWNLOAD (SMS and ClickandBuy) */
+
+/* @group MEMBERS DOWNLOAD (DELUXE) */
+
+#members_download_box { clear:both; padding:1.5em 3em; border-top:#9fbdda 2px solid; background-color:#ecf2f8; }
+	#members_download_box p { margin:0; font-size:14px; }
+	#members_download_box a { text-decoration:underline; }
+
+/* @endgroup MEMBERS DOWNLOAD (DELUXE)*/
+
+/* @group SOFTONIC DOWNLOADER (without Security Seal) */
+	#info-popup-ud { width:700px; display:none; }
+	#info-popup-ud-content { margin:15px; width:auto; }
+	#info-popup-ud-content h2 { font:2em Century Gothic, Arial, sans-serif; color:#000; margin-bottom:10px; }
+	#info-popup-ud-content h2 span { color:#C89302; }
+	#info-popup-ud-content p { margin:0 0 20px; }
+	#info-popup-ud-content p span { font-size:11px; margin-top:10px; display:block; }
+	#info-popup-ud-content ul { margin-bottom:20px; overflow:hidden; display:block; }
+	#info-popup-ud-content ul li { display:block; width:30%; float:left; margin-left:3%; text-align:center; }
+	#info-popup-ud-content ul li.first { margin-left:2px; border:none; }
+	#info-popup-ud-content .truste_seal { float:right; }
+
+	#ud_download_box { padding:1em 3em; border-top:2px solid #2fa41e; border-bottom:1px solid #c5e7c5; background-color:#f1f7f1; margin-bottom:1em; }
+		#ud_download_box h2 { color:#4d7b0f; font:2em Century Gothic, Arial, sans-serif; }
+		#ud_download_box h2 em { color:#000; font-weight:normal; font-style:normal; }
+		#ud_download_box ul { margin:1em 0 2em; }
+		#ud_download_box ul li { position:relative; padding:0 1em 0 2em; overflow:hidden; background:url(/mnmshared/img/icons/icons_sprite.png) no-repeat -10px -1117px; font-size:1.2em; line-height:1.5em; }
+		#ud_download_box ul li strong { font-size:15px; color:#000; }
+		#ud_download_box #download_action { padding-bottom:2em; }
+
+/* @endgroup SOFTONIC DOWNLOADER (without Security Seal) */
+
+	/* @group FREE DOWNLOAD */
+	#free_download_special_ad { margin:0 0 0 50px; background:transparent url(http://va2en.sftcdn.net/images) no-repeat 0 -457px; width:650px; padding:15px 0 0 25px; }
+	#free_download_special_ad.leaderboard { margin-left:22px; background-position:top right; width:728px; padding-left:0; }
+	#free_download_special_ad .google_ad_title { font-size:18px; }
+	.google_sponsored_ad { margin:5px 0 10px 0; background:transparent url(http://va3en.sftcdn.net/images) no-repeat 20px -2px; width:100%; padding:20px 0; text-align:center; font-size:15px; }
+	.google_sponsored_ad span.google_ad_title { font-size:24px; }
+	.google_sponsored_ad span.google_ad_link { font-size:14px; }
+	/* @endgroup FREE DOWNLOAD */
+
+	#content_free .success_download #close_free_download_success { background:url(http://va2en.sftcdn.net/shared) 0 100% no-repeat #fff; }
+
+	#ad_related_links_div, #ad_related_links_div_2 { margin-bottom:18px; }
+		#ad_related_links_div #g_ads div.google_ad_content, #ad_related_links_div_2 #g_ads div.google_ad_content { background:#FFF; padding-left:30px; font-size:13px; }
+		#ad_related_links_div #g_ads div.google_ad_content span.google_ad_title, #ad_related_links_div_2 #g_ads div.google_ad_content span.google_ad_title { font-size:18px; }
+		#ad_related_links_div #g_ads div.google_ad_content span.google_ad_link, #ad_related_links_div_2 #g_ads div.google_ad_content span.google_ad_link { font-size:12px; }
+
+		/* @group HOSTED DOWNLOAD */
+		.hosted_download_box .success_download img { padding-right:20px; }
+		.hosted_download_box .free_download_box.security_seal_bg { background:#f2f6f4 url(http://va3en.sftcdn.net/img) no-repeat right bottom; }
+		.hosted_download_box .free_download_box img { float:left; }
+		.hosted_download_box h1.thanks_msg { font:normal 2.4em Century Gothic, Arial, sans-serif; color:#000; padding:10px 18px; }
+		.hosted_download_box h1.thanks_msg strong { font-weight:bold; color:#000; }
+		.hosted_download_box .free_download_box span.downloading { padding:0 8px 0 22px; background:url(http://va1en.sftcdn.net/shared) no-repeat 0 2px; font-size:1.6em; font-weight:bold; color:#2FA41E; }
+		.hosted_download_box .free_download_box h2 { padding:7px 60px 5px 0; font:bold 2em Century Gothic, Arial, sans-serif; color:#000; }
+		.hosted_download_box .free_download_box h2 span { font:normal 0.5em Arial, sans-serif; }
+		.hosted_download_box .free_download_box h2 span strong { font-weight:bold; }
+		.hosted_download_box .free_download_box h2 a { font:normal 0.5em Arial, sans-serif; padding:0 6px; }
+
+		/* @endgroup HOSTED DOWNLOAD */
+
+	#free_download_box.download_failed, #ud_download_box .download_failed_sd #download_message_failure ul { width:auto; margin-top:20px; padding:20px; background-color:#fefbe4; background-image:none; border:1px #eadaaf solid; }
+	#ud_download_box .download_failed_sd #download_message_failure ul { width:90%; margin-bottom:20px; }
+	#free_download_box.download_failed.download_failed_sd { width:auto; margin-top:0; padding:0; background:url(http://va3en.sftcdn.net/shared) no-repeat scroll -100px -4486px; border:none; }
+			#free_download_box.download_failed #free_download_box_default h3, #free_download_box.download_failed #free_download_box_end, #ud_download_box .download_failed_sd .download_option { display:none; }
+			#free_download_box.download_failed #free_download_box_default ul { margin:0; }
+			#free_download_box.download_failed_sd #free_download_box_default ul { margin:0 0 15px 30px; }
+
+	/* @group DOWNLOAD SUGGESTION */
+	#download_suggestions { background:url(http://va4en.sftcdn.net/shared) 0 -367px no-repeat; padding-left:1px; margin-bottom:36px; }
+	#download_suggestions h4 { background:transparent url(http://va3en.sftcdn.net/shared) no-repeat scroll -95px -2482px; padding-left:30px; font:bold 24px "Trebuchet MS", Arial, sans-serif; margin:0 0 10px 10px; }
+	#download_suggestions .content { background:#FFF; }
+	#download_suggestions .item { width:377px; height:92px; float:left; overflow:hidden; margin-bottom:10px; }
+		#download_suggestions div { background-color:#FFF; }
+		#download_suggestions .screenshot { float:left; margin-right:10px; }
+		#download_suggestions .item_description { float:left; width:270px; }
+		#download_suggestions .item_description a { font-weight:bold; }
+	/* @endgroup DOWNLOAD SUGGESTION */
+
+	#file_download_sms_text { font:10px Arial; padding:0 30px 10px 20px; }
+		#file_download_sms_text.inside { color:#666; line-height:normal; margin-bottom:0; padding:0 20px 5px 48px; }
+
+	#secure_download_box { background:url(http://va3en.sftcdn.net/shared) 0 -400px no-repeat; padding-top:20px; color:#0f4284; margin:16px 0 18px 0; }
+	#secure_download_box h3 { background:url(http://va3en.sftcdn.net/shared) 0 3px no-repeat; margin-left:55px; padding:0 50px 0px 20px; font:17px "Trebuchet MS", Arial, sans-serif; }
+	#secure_download_box p { margin:0px; background:url(http://va3en.sftcdn.net/shared) 0 100% no-repeat; padding:0 50px 30px 75px; font:17px "Trebuchet MS", Arial, sans-serif; }
+
+	/* @group ADS DOWNLOAD */
+	#flash_get { text-align:center; margin-bottom:18px; padding:0; }
+	/* @endgroup ADS DOWNLOAD */
+
+	/* @group MOBILE RELATED DOWNLOADS */
+	#other_program_platforms.list_program ul { margin:8px 0 40px 2.5em; }
+		#other_program_platforms.list_program li { padding:0.2em 0; }
+			#other_program_platforms.list_program li a { font-size:1.1em; text-decoration:underline; }
+	/* @endgroup MOBILE RELATED DOWNLOADS */
+
+/* @endgroup DOWNLOAD PAGE */
+
+.download #file_title { font-weight:normal; font-size:2.6em; }
+
+/* @group OPINION FORM */
+#opinion-form { overflow:hidden; padding:20px; }
+	#opinion-form .msg_ko { margin-top:0; }
+	#opinion-form .msg_ok { padding:8px 5px 10px 35px; color:#000; }
+
+	#opinion-form form.forms h3 { font:bold 1.25em Century Gothic, Arial, sans-serif; color:#1F1F1F; }
+		#opinion-form form.forms h3 span { color:#1FA4E1; }
+	#opinion-form form.forms dl { margin:15px 0; }
+		#opinion-form form.forms dl dt { font-weight:bold; }
+		#opinion-form form.forms dl dd { margin-top:5px; font-size:15px; color:#000; }
+		#opinion-form form.forms div label { display:block; float:none; width:auto; margin-bottom:5px; font-weight:bold; }
+		#opinion-form form.forms div input { float:left; margin:0 12px 5px 0; }
+		#opinion-form form.forms input.button { position:relative; clear:both; width:auto; margin:5px 5px 5px 0; text-align:center; cursor:pointer; }
+		#opinion-form form.forms div p.mini_text_dialog { margin:0 0 20px 0; font-size:10px; color:#666; }
+		#opinion-form form.forms div div { clear:both; margin-bottom:20px; }
+			#opinion-form form.forms div div input { margin:3px 12px 3px 0; }
+			#opinion-form form.forms div div span { font-size:11px; line-height:18px; }
+			#opinion-form form.forms div div a.forgot_password_dialog { font-size:11px; }
+			#opinion-form p a { margin-left:40px; }
+	#opinion-form .msg h3 { margin:20px 0 0 20px; padding-bottom:10px; font-size:15px; font-weight:bold; color:#333; }
+	#opinion-form .msg ul.confirmation_options { margin-left:20px; padding-left:30px; color:#333; }
+/* @endgroup OPINION FORM */
+
+/* @group SEM TEST */
+#sem_container { width:980px; overflow:hidden; margin:0 auto; }
+	#sem_container p { margin:0 0 9px 0; }
+
+	#sem_container #content { background:#fff; padding:25px 47px 23px 41px; }
+		#sem_container #section_download { overflow:hidden; padding:29px 0; height:1%; border-bottom:1px solid #8fbcf3; }
+		#sem_container #ico_description, #sem_container #screenshot_file { width:396px; float:left; }
+		#sem_container #file_download { padding-left:56px; float:left; }
+		#sem_container #screenshot_file { text-align:center; }
+		#sem_container .icon_file { float:left; margin-right:8px; }
+		#sem_container .title_author { float:left; width:288px; }
+		#sem_container .title_author h2 { font:20px "Trebuchet MS", Arial, Helvetica, sans-serif; color:#2b2b2b; margin-bottom:14px; }
+
+	#sem_container .partner_download { background:#fff url(http://va1en.sftcdn.net/shared) no-repeat 0 0; display:block; width:380px; padding:14px 23px 0 23px; }
+		#sem_container .partner_download:hover { text-decoration:none; }
+		#sem_container .partner_download span { display:block; width:auto; }
+		#sem_container .partner_download span.available { font:11px Arial, Helvetica, sans-serif; color:#000; background:#fff url(http://va1en.sftcdn.net/shared) no-repeat 0 100%; padding:14px 0 15px 23px; margin:0 0 0 -23px; width:100%; height:1%; }
+		#sem_container .partner_download span.available strong { background:url(http://va2en.sftcdn.net/shared) no-repeat 4px 3px; padding-left:20px; }
+		#sem_container .download_b { padding-bottom:0; margin-bottom:20px; margin-top:10px; font-size:40px; background-position:-100px -5px; }
+		#sem_container .rating_file { margin-left:5px; }
+		#sem_container .title_file { font:30px "Trebuchet MS", Arial, Helvetica, sans-serif; color:#7f7f7f; }
+		#sem_container .title_file strong { font-weight:bold; color:#393939; }
+
+	#sem_container #section_info { padding-top:29px; overflow:hidden; height:1%; }
+		#sem_container #editor_review .photo { border:1px solid #A9A9A9; padding:2px; float:left; }
+
+	#sem_container #editor_review { float:left; width:55%; }
+		#sem_container #editor_review .title { margin-top:0; }
+		#sem_container #editor_review .title span { background:url(http://va4en.sftcdn.net/shared) no-repeat right 6px; padding-right:12px; }
+		#sem_container #editor_review .pros_file li { background:url(http://va2en.sftcdn.net/shared) no-repeat 3px 8px; padding-left:22px; font:18px "Trebuchet MS", Arial, Helvetica, sans-serif; }
+		#sem_container #desc_review { margin-left:64px; }
+		#sem_container .pros_file { margin-left:42px; }
+		#sem_container .author { color:#269100; font:bold 13px "Trebuchet MS", Arial, Helvetica, sans-serif; margin-bottom:0; }
+		#sem_container .desc_body { margin-top:0; }
+/* @endgroup SEM TEST */
+
+/* @group MSN */
+	#msn_intro { background:url(http://va3en.sftcdn.net/shared) 95% 6em no-repeat; width:85%; margin:auto; }
+		#msn_intro h1 { margin:0.3em 0; padding:0; font-weight:normal; }
+		#msn_intro h1 strong { font-weight:normal; }
+		#msn_intro p { width:60%; display:inline-block; line-height:170%; text-align:justify; }
+		#msn_intro p.msn_button { margin:2em 0 2em 0; }
+		#msn_intro p.msn_button a { display:inline-block; padding:2px 16px; }
+		#msn_intro p.msn_button a:hover { text-decoration:none; }
+		#msn_intro p.terms_conditions { padding:0 0 1.5em 0; width:65%; }
+
+	#msn_description { width:85%; margin:auto; }
+		#msn_description h2 { font:normal 2em Century Gothic, Arial, Helvetica, sans-serif; border-bottom:1px solid #AAC0E0; padding-bottom:0.3em; }
+		#msn_description h3 { font:bold 1.3em Arial, Helvetica, sans-serif; color:#000; }
+		#msn_description ul { margin:0 0 2em 0; padding:0; }
+		#msn_description ul li { display:block; width:40%; padding-top:12em; text-align:justify; }
+		#msn_description ul li.option_shared { float:left; margin:0 2em 0 2em; background:url(http://va3en.sftcdn.net/shared) no-repeat 50% -40em; }
+		#msn_description ul li.option_software { float:right; margin:0 2em 0 2em; background:url(http://va3en.sftcdn.net/shared) no-repeat 50% -80.5em; }
+		#msn_description .back { float:left; }
+		#msn_description .conditions { float:right; }
+
+	/* @group MSN remind acces */
+		.msn_box_remind h2, .links_list h2 { font:normal 1.8em Century Gothic, Arial, Helvetica, sans-serif; }
+		.msn_box_remind h2 strong { color:#1FA4E1; font-weight:normal; }
+
+		#content_2col .msn_box_remind { width:auto; margin:2em 3em 0 0; }
+			.msn_box_remind p { margin:2em; }
+			.msn_box_remind p img { margin:0.5em auto; }
+
+		#content_2col .links_list { width:auto; margin:2em 0 0 3em; padding:0; }
+			.links_list ul { margin:1em 0 0 3em; padding-top:0.3em; }
+			.links_list ul li { margin:0.7em 0; }
+			.links_list ul li a { padding:0 0 0 2em; background:url(http://va4en.sftcdn.net/shared) 0 0 no-repeat transparent; }
+			.links_list ul li a.meet_user { background-position:-5px -250px; }
+			.links_list ul li a.newsletter { background-position:-5px -275px; }
+			.links_list ul li a.invite_friends { background-position:-5px -300px; }
+			.links_list ul li a.backhome { background-position:-5px -325px; }
+	/* @endgroup MSN remind acces */
+/* @endgroup MSN */
+
+		#ud_download_box.big_list #download_action { padding:1em 0 1em; }
+		#ud_download_box.big_list ul { clear:both; }
+
+		#ud_download_box.google_compliant h2 { padding:0 0 30px 10px; clear:both; }
+		#ud_download_box.google_compliant #download_action { clear:both; padding:1.5em 0 2em 1em; }
+		#ud_download_box.google_compliant.virus_free { background:#f1f7f1 url(http://va1en.sftcdn.net/img) no-repeat right bottom; }
+		#ud_download_box.google_compliant.download { padding:1em 2em 0; background-color:#f1f7f1; }
+		#ud_download_box.google_compliant .download_xl, #ud_download_box.google_compliant .download_xl:hover { display:block; float:left; height:55px; padding:0; margin:0; background:#F0F7F0 url(http://va3en.sftcdn.net/shared) top left no-repeat; text-decoration:none; cursor:pointer; }
+		#ud_download_box.google_compliant .download_xl strong, #ud_download_box.google_compliant .download_xl strong:hover { display:inline-block; margin:0 0 0 15px; padding:2px 65px 12px 15px; color:#FFF; background:#7CB521 url(http://va3en.sftcdn.net/shared) top right no-repeat; text-decoration:none; }
+		#ud_download_box.google_compliant .info_b { display:block; float:left; margin:10px 0 0 10px; padding:0; }
+		#ud_download_box.google_compliant .info_b .subtitle { display:block; font:bold 1.5em/150% Century Gothic, Arial, sans-serif; }
+		#ud_download_box.google_compliant #safeSecure { padding:0 0 0 45px; font-weight:bold; }
+		#ud_download_box.google_compliant #safeSecure a { font-weight:normal; }
+
+		#ud_download_box.google_compliant #recommended_box { padding:0 0 1em 1em; margin:-15px 0 0 0; }
+			#ud_download_box.google_compliant #recommended_box img { display:block; margin:10px 0 0 0; border:1px solid #999; }
+			#ud_download_box.google_compliant #recommended_box h3 strong { color:#333; }
+			#ud_download_box.google_compliant #recommended_box form { float:left; padding:10px 15px 15px 0; font-size:0.9em; border-bottom:1px solid #C5E7C5; }
+			#ud_download_box.google_compliant #recommended_box label strong { margin:0 0 0 10px; color:#008400; }
+			#ud_download_box.google_compliant #recommended_box input { margin-right:4px; vertical-align:middle; }
+			#ud_download_box.google_compliant #recommended_box ul { background:none; margin:0; }
+				#ud_download_box.google_compliant #recommended_box ul li { padding-top:4px; background:none; font-size:1em; }
+
+		#ud_download_box.google_compliant .list_b { display:inline-block; width:77%; clear:both; margin:18px 0 0 26px; }
+
+		#ud_download_box.big_space #download_action { padding:3em 0 4em; }
+
+		#info_sd_1col { padding:16px 0 28px 30px; margin-bottom:16px; border-bottom:1px solid #C5E7C5; }
+			#info_sd_1col ul { list-style:disc outside; padding:0 0 10px 18px; }
+			#info_sd_1col ul li { padding-bottom:5px; }
+			#info_sd_1col p img.space { margin:10px 0; }
+
+		#info_sd_2col { padding:16px 0 28px 30px; margin-bottom:16px; border-bottom:1px solid #C5E7C5; }
+			#info_sd_2col .col_1 { float:left; width:44%; margin-right:2%; padding:1% 2%; }
+			#info_sd_2col .col_2 { float:left; width:44%; margin-left:2%; background:#EDEDED; padding:1% 2%; }
+			#info_sd_2col .col_2.white { background:#FFF; }
+			#info_sd_2col .col_2 ul { list-style:disc outside; padding:8px 0 0 18px; }
+			#info_sd_2col .col_2 ul li { padding-bottom:5px; }
+			#info_sd_2col .col_2 p img { margin:8px 0; }
+
+
+/* @group POPUP (POST-DOWNLOAD) */
+	#info-popup-sd-postdownload { width:750px; display:none; }
+		#info-popup-sd-content h2 { clear:left; margin-bottom:10px; padding:5px 15px; color:#000; font:2em Century Gothic, Arial, sans-serif; }
+		#info-popup-sd-content h2 span { color:#C89302; }
+		#info-popup-sd-content p { margin:0 0 20px; }
+		#info-popup-sd-content p.infosd { padding:0 15px; }
+		#info-popup-sd-content ul { display:block; clear:both; overflow:hidden; margin:0 15px; }
+		#info-popup-sd-content ul p { margin:0; padding:8px; text-align:left; background:#EFEFEF; }
+		#info-popup-sd-content ul.more_info_sd p { min-height:70px; }
+		#info-popup-sd-content ul li { display:inline-block; float:left; width:32%; margin-left:2%; text-align:center; }
+		#info-popup-sd-content ul li.first { margin:0; border:none; }
+		#info-popup-sd-content ul li img.clock { padding-top:9px; }
+		#info-popup-sd-content ul li a { font-size:0.9em; }
+		#info-popup-sd-content .image { height:119px; }
+		#info-popup-sd-content .image_s { height:100px; }
+		#info-popup-sd-content .image_l { height:125px; }
+		#info-popup-sd-content .download_action { display:block; width:auto; clear:both; overflow:hidden; height:1%; background:#ECFFE1; margin-top:1.8%; }
+		#info-popup-sd-content .download_action div { float:left; color:#999; margin:15px; }
+		#info-popup-sd-content .download_action p { float:right; padding:26px 15px 0 10px; }
+		#info-popup-sd-content .download_action p span { display:inline; }
+/* @endgroup POPUP (POST-DOWNLOAD) */
+
+/* @group SECTION TOPS */
+	#section_tops { position:relative; }
+/* @endgroup SECTION TOPS */
+
+/* @group FUNCIONALITY */
+	#funcionality_title { float:left; padding:4px 18px 4px 37px; font:1.3em 'Century Gothic', Arial, sans-serif; background:#C89302 url(/mnmshared/img/icons/icons_sprite.png) no-repeat scroll 9px -1952px; }
+		#funcionality_title strong { color:#FFF; }
+	#funcionality_top { position:relative; height:32em; padding:1em 0; margin-bottom:1em; background:#EDEDED; }
+		#func_info { width:42%; padding:1em 1.4em; }
+			#func_info .author_div { float:left; width:12%; margin:0 1em 0 0; }
+			#func_info p.author { display:block; overflow:hidden; width:auto; padding:0 0 .5em; margin:0 0 .5em; border-bottom:1px dotted #999; font-size:0.95em; }
+			#func_info p.author a em { font-style:normal; color:#569900; }
+		#func_recommended_program { position:absolute; top:3em; right:2em; width:50%; padding:1em; -moz-box-shadow:2px 1px 10px #888; -webkit-box-shadow:2px 1px 10px #888; box-shadow:2px 1px 10px #888; background:#FFF; }
+			#func_recommended_program h4.section_title { padding:0; border:0; background:transparent; margin-bottom:.5em; }
+			#func_recommended_program .thumbnail { float:left; margin-right:1em; margin:0.5em 1em 0 0; }
+			#func_recommended_program dt { display:none; }
+			#func_recommended_program h3 { font:bold 2em 'Century Gothic', Arial, sans-serif; line-height:200%; }
+			#func_recommended_program dd.description { clear:both; padding:.3em 0 .8em; }
+			#func_recommended_program dd.section_ranking { float:left; width:25%; position:relative; padding:.4em 1em; background:#EDEDED; }
+			#func_recommended_program dd.section_ranking p span { float:left; padding:.4em .5em; margin-right:.5em; color:#FFF; background:#398F06; font-size:2.4em; font-weight:bold; }
+			#func_recommended_program dd.section_ranking p span em { font-size:.70em; font-style:normal; }
+			#func_recommended_program dd.section_ranking a { clear:both; display:block; padding:.5em 0; font-size:0.85em; line-height:120%; }
+			#func_recommended_program dd.softonic_ranking, #func_recommended_program .users_ranking { float:left; width:32%; padding:1em; }
+			#func_recommended_program dt.softonic_ranking, #func_recommended_program  dt.users_ranking { display:block; position:absolute; font:1.3em 'Century Gothic', Arial, sans-serif; }
+			#func_recommended_program dt.softonic_ranking { margin:0.2em 0; left:11.2em; }
+			#func_recommended_program dt.users_ranking { margin:-13px 0 0; left:21em; }
+			#func_recommended_program dd.softonic_ranking, #func_recommended_program  dd.users_ranking { padding:2em 0 0 1em; font:1.2em 'Century Gothic', Arial, sans-serif; }
+			#func_recommended_program dd.softonic_ranking .rank, #func_recommended_program  dd.users_ranking .rank { float:left; margin:.1em .4em 0 0; }
+			#func_recommended_program .rank_string { clear:both; display:block; overflow:hidden; width:auto; font:bold 0.95em Arial, sans-serif; padding:.4em 0 0; color:#C89302; }
+		#func_related_software { margin-bottom:2em; }
+			#func_related_software li { display:block; overflow:hidden; width:auto; height:1%; padding:1em 1em .5em; border-bottom:1px dotted #CCC; }
+			#func_related_software dl.software_info { float:left; width:79%; }
+			#func_related_software dt { display:none; }
+			#func_related_software dd.thumbnail { float:left; padding-right:1em; }
+			#func_related_software dd.name { padding-top:.5em; }
+			#func_related_software dd.name a { font-weight:bold; font-size:1.2em; }
+			#func_related_software dd.own { color:#C07719; }
+			#func_related_software .under_download_button { float:right; margin:2px 0 0 1em; text-align:right; font-size:0.9em; }
+		#func_tutorial { margin-bottom:2em; }
+			#func_tutorial h2 { padding:1em 1em 0; font:bold 1.6em/.5em 'Century Gothic', Verdana, Arial, Sans-serif; }
+			#func_tutorial .content h2 { padding:1em 0; font-size:1.3em; color:#C89302; }
+			#func_tutorial .content h3 { padding:1em 0; font:bold 1.1em/.5em Verdana, Arial, Sans-serif; }
+			#func_tutorial p.author { padding:0em 1.4em; color:#999; }
+				#func_tutorial p.author a { color:#569900; font-weight:bold; }
+			#func_tutorial .content { padding:0 1.4em; }
+			#func_tutorial .content img.alignright { float:right; margin-left:1em; }
+			#func_tutorial .content img.alignleft { float:left; margin-right:1em; }
+			#func_tutorial .content img.aligncenter { display:block; overflow:hidden; margin:auto; padding:20px 0; }
+			#func_tutorial .content p { line-height:150%; }
+			#func_tutorial .content a.more { cursor:pointer; }
+		#func_posts { margin-bottom:2em; }
+			#func_posts li { border-bottom:1px dotted #999; }
+			#func_posts li .content { padding:2em 0em 2em 1.4em; }
+			#func_posts li h3 { font:bold 1.4em 'Century Gothic', Verdana, Arial, Sans-serif; }
+			#func_posts p.author { margin-top:4px; color:#999; }
+				#func_posts p.author a { color:#569900; font-weight:bold; }
+			#func_posts a.thumbnail { float:right; margin:2em 2em 0 0em; padding:0; }
+			#func_posts a.thumbnail img { padding:0; margin:0; border:1px solid #999; }
+/* @endgroup FUNCIONALITY */
+
+
+/* END program.css */
+/* START FILE program_npf.css */
+
+
+/* @group PROGRAM INTERN LAYOUT */
+#program_new_summary_set #content { overflow:visible; }
+#content_info_review { height:1%; border-bottom:1px solid #cddced; background:url(/mnmshared/img/interface/review_box_background.png) repeat-y; }
+#content_info_review .auxbar, #content_info_review #review_box { float:left; }
+#content_info_review .auxbar { width:183px; border-top:1px solid #cddced; }
+#content_info_review #review_box { width:481px; }
+
+#all_about_program, #extra_info { margin-top:40px; }
+#extra_info { margin-bottom:40px; }
+.firstbar .banner_box { margin-top:26px; padding-bottom:0; }
+/* @endgroup PROGRAM INTERN LAYOUT */
+
+/* @group COMMON */
+/* @group STARS */
+.rank.rank_s, .rank.rank_s span { display:block; height:12px; }
+.rank.rank_s { width:63px; margin:2px 0; background:url(/mnmshared/img/interface/interface_elements.png) no-repeat 1px -50px; text-indent:-1000em; line-height:0; font-size:0; }
+.rank.rank_s span { background:url(/mnmshared/img/interface/interface_elements.png) no-repeat 1px -5px; }
+.softonic_rank .rank.rank_s { background-position:1px -35px; }
+.softonic_rank .rank.rank_s span { background-position:1px -20px; }
+.rank.rank_xs, .rank.rank_xs span { display:block; height:8px; }
+.rank.rank_xs { width:50px; margin:2px 0; background:url(/mnmshared/img/interface/interface_elements.png) no-repeat -104px -19px; text-indent:-1000em; line-height:0; font-size:0; }
+.rank.rank_xs span { background:url(/mnmshared/img/interface/interface_elements.png) no-repeat -103px -8px; }
+.softonic_rank .rank.rank_xs { background-position:-103px -48px; }
+.softonic_rank .rank.rank_xs span { background-position:-103px -37px; }
+.rank_m, .rank_m span { display:block; height:20px; }
+.rank_m { width:90px; margin:4px 0; background:url(/mnmshared/img/interface/interface_elements.png) no-repeat -2px -90px; text-indent:-1000em; }
+.rank_m span { background:url(/mnmshared/img/interface/interface_elements.png) no-repeat -2px -68px; }
+
+.softonic_rank, .user_rank { background:#FFF; }
+.softonic_rank dt, .user_rank dt, .your_rank dt { padding:2px 6px; background-color:#83A05B; color:#FFF; font-weight:bold; text-align:center; }
+.softonic_rank dt { background:#CBAB58; }
+.softonic_rank.small dt, .user_rank.small dt { font-size:0.90em; font-weight:normal; padding:0 1px; }
+.number_rank { display:block; overflow:hidden; font:bold 2.6em 'Century Gothic', Arial, Verdana, Sans-serif; text-align:center; background:#FFF; }
+.softonic_rank .number_rank { color:#C89302; }
+.user_rank .number_rank { color:#7C9542; }
+.softonic_rank.small .number_rank, .user_rank.small .number_rank { font-size:2.1em; }
+/* @endgroup STARS */
+
+/* @group TITLES */
+h4.generic_sub_title, div.generic_sub_title h4 { font:bold 2.3em 'Century Gothic', Arial, Verdana, Sans-serif; }
+h4.generic_title { margin:40px 0 30px 15px; background:url(/mnmshared/img/interface/interface_elements.png) repeat-x 0 -353px; font:normal 1.5em 'Century Gothic', Arial, Verdana, Sans-serif; color:#333; }
+h4.generic_title span, h4.generic_title a { padding-right:8px; background-color:#fff; }
+h4.generic_title a { color:#333; }
+h4.generic_sub_title, div.generic_sub_title { border-top:2px solid #286CB7; color:#286CB7; }
+h4.generic_sub_title em, div.generic_sub_title h4 em { font-style:normal; }
+div.generic_sub_title h4 { padding:.1em .5em 0; }
+div.generic_sub_title h4 span, h4.generic_sub_title span { display:block; overflow:hidden; width:auto; padding:0 0 .5em; font:normal 0.45em Arial, Verdana, Sans-serif; }
+/* @endgroup TITLES */
+
+/* @group PLATFORM LIST */
+ul.platform_list { overflow:hidden; width:auto; margin-bottom:16px; }
+ul.platform_list li { float:left; padding:8px 28px 8px 20px; background:url(http://va1en.sftcdn.net/shared) no-repeat -1000px -1000px; white-space:nowrap; }
+/* @desc:symbian */			ul.platform_list li.platform_1178 { background-position:0 4px; }
+/* @desc:Windows */			ul.platform_list li.platform_2 { background-position:0px -347px; }
+/* @desc:Moviles */			ul.platform_list li.platform_1177 { background-position:0px -547px; }
+/* @desc:Mac */				ul.platform_list li.platform_724 { background-position:0px -298px; }
+/* @desc:Linux */			ul.platform_list li.platform_910 { background-position:0px -643px; }
+/* @desc:windowsmobile */	ul.platform_list li.platform_1181 { background-position:0px -346px; }
+/* @desc:Iphone */			ul.platform_list li.platform_1182 { background-position:0px -197px; }
+/* @desc:Java */			ul.platform_list li.platform_1180 { background-position:0px -151px; }
+/* @desc:Android */			ul.platform_list li.platform_1183 { background-position:0px -246px; }
+/* @desc:Pocket PC */		ul.platform_list li.platform_1111 { background-position:0px -598px; }
+/* @desc:Blackberry */		ul.platform_list li.platform_1179 { background-position:0px -47px; }
+/* @desc:Palm OS */			ul.platform_list li.platform_1020 { background-position:0px -447px; }
+/* @desc:WebOS */			ul.platform_list li.platform_1184 { background-position:0px -298px; }
+/* @desc:App */				ul.platform_list li.platform_2900 { background-position:0px -298px; }
+/* @desc:WindowsPhone 7 */	ul.platform_list li.platform_1185 { background-position:0px -396px; }
+/* @endgroup PLATFORM LIST */
+
+/* @group TOP */
+.generic_top { display:block; overflow:hidden; width:auto; }
+div.tabs { height:32px; }
+.generic_top ol { display:block; overflow:hidden; width:auto; padding:0; }
+.generic_top ol li { clear:both; display:block; overflow:hidden; width:auto; position:relative; padding:.5em; border-top:1px dotted #CCC; }
+.generic_top ol li em { float:left; width:6%; margin-right:3%; font:normal 1em/224% Arial, Verdana, Sans-serif; text-align:right; color:#839F59; }
+.generic_top ol li span { float:left; width:91%; }
+.generic_top ol li span a { line-height:130%; }
+.generic_top ol li span p { margin:0; }
+.generic_top ol li.top1, .generic_top li.extra { border-top:0px none; }
+.generic_top ol li.top1 em { line-height:172%; font-weight:bold; font-size:1.3em; }
+.generic_top ol li.top1 span a { font-size:1.50em; font-weight:bold; }
+.generic_top ol li.current { background:#FFFFE1 url(/mnmshared/img/interface/interface_elements.png) no-repeat scroll 100% -780px; }
+.generic_top ol li.current span { width:74%; }
+.generic_top ol li.current.top1 { margin-top:.5em; background-position:100% -780px; }
+.generic_top ol li.broken { height:8px; margin-top:4px; padding:0; border-top:0px none; background:#FFFFE1 url(/mnmshared/img/interface/interface_elements.png) repeat-x 0 -136px; }
+.generic_top ol li.extra { border-bottom:1px dotted #CCC; padding-bottom:8px; background-position:100% -783px; }
+.generic_top ol li.extra img { position:absolute; }
+.generic_top ol li.extra a { padding-top:4px; }
+/* @endgroup TOP */
+
+/* @group FORMS */
+.form { clear:both; padding:13px 10px 20px 10px; }
+.form h4 { font:normal 1.4em 'Century Gothic', Arial, Verdana, Sans-serif; }
+.form textarea { width:99.3%; }
+.form .btn { overflow:visible; width:auto; margin:0; cursor:pointer; }
+/* @endgroup FORMS */
+
+/* @group BUTTONS */
+.btn { display:inline-block; width:auto; padding:4px 8px 8px; border:1px solid #a8a8a8; border-radius:3px; -moz-border-radius:3px; -webkit-border-radius:3px; background:#dedede url(/mnmshared/img/interface/interface_elements.png) 0 -629px repeat-x; font:normal 1.5em 'Century Gothic', Arial, Verdana, Sans-serif; color:#000; box-shadow:3px 3px 3px #BABABA; -moz-box-shadow:3px 3px 3px #BABABA; -webkit-box-shadow:3px 3px 3px #BABABA; }
+.btn:hover { text-decoration:none; }
+.btn_opinion span, .btn_ask span { padding:0 36px 6px 0; background:url(/mnmshared/img/interface/interface_elements.png) no-repeat 100% -264px; }
+.btn_ask span { padding-right:26px; background-position:100% -297px; }
+
+.btn_form_opinion { padding-right:40px; background-position:100% -677px; }
+.btn_form_ask { padding-right:30px; background-position:100% -724px; }
+
+.more_and_btn { overflow:hidden; height:1%; margin-top:15px; background:url(/mnmshared/img/interface/interface_elements.png) repeat-x 0 -347px; }
+.more_and_btn span.content_btn { display:inline-block; padding-right:10px; background:#fff; }
+.more_and_btn p { margin:2px 0; font-size:.9em; color:#999; }
+.more { float:right; margin-top:9px; padding:0 25px 0 5px; background:#fff url(/mnmshared/img/icons/icons_sprite.png) no-repeat 100% -1696px; }
+/* @endgroup BUTTONS */
+
+/* @group DO YOU LIKE FORM */
+.do_you_like { display:block; }
+.do_you_like p, .do_you_like ul { float:left; line-height:16px; }
+.do_you_like p { margin:0 15px 0 0; padding-top:1px; font:bold 1.5em 'Century Gothic', Arial, Verdana, sans-serif; }
+.do_you_like li { float:left; padding:0; margin-right:12px; }
+.do_you_like.java_on li a { padding:3px 8px 3px 23px; font:normal 1em Arial, Verdana, sans-serif; color:#fff; text-decoration:none; }
+.do_you_like li .btn_yes, .do_you_like li .btn_no { background:#83A05B url(/mnmshared/img/interface/interface_elements.png) no-repeat -260px -83px; border:1px solid #617D3B; }
+.do_you_like li .btn_no { background-color:#a64e3d; background-position:-260px -56px; border-color:#843023; }
+.do_you_like li .btn_no:hover { background-color:#984232; }
+.do_you_like li .btn_yes:hover { background-color:#6f8b48; }
+.do_you_like li .hidden { display:none; }
+.do_you_like label { display:block; }
+.do_you_like.java_on .button, .do_you_like.java_on label { display:none; }
+.do_you_like .msg_ok, .do_you_like .msg_ko { margin-bottom:0; }
+/* @endgroup DO YOU LIKE FORM */
+
+/* @group LIST */
+.bullets_list li, .program_description li { padding:2px 0 1px 9px; background:url(/mnmshared/img/icons/icons_sprite.png) -96px -1693px no-repeat; }
+/* @endgroup LIST */
+
+/* @endgroup COMMON */
+
+/* @group RATE */
+#file_ranking_new { height:1%; padding:8px 15px 15px 15px; border-bottom:1px solid #cddced; }
+#file_ranking_new h4 { font:1.26em 'Century Gothic', Arial, Verdana, Sans-serif; color:#999; }
+#file_ranking_new dl { background-color:#FFF; color:#7C9542; }
+#file_ranking_new .votes { display:block; width:100%; padding-top:4px; margin-top:5px; background-color:#EDEDED; text-align:center; font-size:0.95em; }
+
+#file_ranking_new .user_rank { float:left; }
+#file_ranking_new .user_rank em { width:auto; padding-right:15px; background:#EDEDED url(/mnmshared/img/interface/interface_elements.png) no-repeat 100% -112px; font-style:normal; }
+
+#file_ranking_new .softonic_rank { float:right; color:#C89302; }
+
+#file_ranking_new .user_rank, #file_ranking_new .softonic_rank { width:46%; margin:10px 0; }
+
+#file_ranking_new .your_rank { clear:both; width:100%; padding-bottom:3px; }
+#file_ranking_new .your_rank dt { padding-left:15px; text-align:left; }
+#file_ranking_new li.custom_fb input { width:10px; height:10px; margin-left:10px; }
+#file_ranking_new li.custom_fb label { padding-left:5px; color:#999; font-size:11px; }
+
+/* @group RATE SLIDE */
+#file_ranking_new #user_quick_rate { position:relative; padding:0; margin-bottom:5px; }
+#file_ranking_new #user_quick_rate .quick_rate_slider div, #file_ranking_new #user_quick_rate .quick_rate_slider a { height:12px; border:0; border-radius:0; background:url(http://va4en.sftcdn.net/shared) no-repeat 0 -106px; }
+#file_ranking_new #user_quick_rate_li_stars { display:none; position:absolute; top:8px; left:13px; }
+#file_ranking_new #user_quick_rate .quick_rate_slider { width:100%; padding-top:43px; }
+#file_ranking_new #user_quick_rate .quick_rate_slider .slider { overflow:visible; position:absolute; width:88px; margin:-13px 0 0 13px; }
+#file_ranking_new #user_quick_rate .quick_rate_slider .slider .ui-slider-handle { position:absolute; width:13px; margin-left:-6px; background-position:0 -118px; cursor:pointer; }
+#file_ranking_new #user_quick_rate input#rank_rate { float:right; width:40px; margin:-35px 2px 0 0; padding:3px 0 4px 4px; border:0; font:bold 2.2em Arial, Verdana, sans-serif; color:#7C9542; }
+#file_ranking_new #user_quick_rate input#rank_rate.user_sliding { color:#B8B8B8; }
+#file_ranking_new #user_quick_rate select#rank_rate { position:absolute; top:13px; left:10px; font-size:1em; font-family:Arial, Verdana, Sans-serif; }
+#file_ranking_new #user_rate_submit { position:absolute; right:21px; top:11px; padding:2px; font-weight:bold; font-size:1.2em; }
+/* @endgroup RATE SLIDE */
+
+/* @group EASY COMMENT */
+#overlay_easy_comment { background-color:#e7edde; border-color:#83a05b; }
+#overlay_easy_comment .overlay_pointer { background-position:-263px -1173px; }
+#easy_comment { width:465px; }
+#easy_comment form { padding:15px 15px 6px; }
+#easy_comment form h4 { padding-left:21px; margin-bottom:15px; line-height:20px; background:url(/mnmshared/img/icons/icons_sprite.png) no-repeat -10px -1114px; font-weight:bold; }
+#easy_comment form li { clear:both; overflow:hidden; display:table; height:1%; padding-bottom:9px; }
+#easy_comment form textarea { width:421px; height:81px; padding:6px; border:1px solid #abadb3; font:1.75em 'Century Gothic', Arial, Verdana, sans-serif; }
+#easy_comment form textarea.placeholder { color:#aaa; }
+#easy_comment form span { float:right; font-size:0.9em; color:#abadb3; }
+#easy_comment form input { float:left; margin-right:21px; }
+#easy_comment form p { display:table-cell; margin:0; font-size:0.9em; vertical-align:middle; }
+/* @endgroup EASY COMMENT */
+/* @endgroup RATE */
+
+/* @group RESIZER */
+#fontresizer_review_buttons { float:right; }
+#fontresizer_review_buttons li { display:inline; }
+#fontresizer_review_buttons li a { float:left; padding:0 3px; margin:0 3px; border:1px solid #CDDCED; background-color:#EBEBEB; color:#333; font-weight:bold; text-decoration:none; }
+#fontresizer_review_buttons li a:hover { border-color:#C89302; }
+#fontresizer_review_buttons li.selected a { border-color:#2A435F; background-color:#509CD2; color:#FFF; }
+#fontresizer_review_buttons li.selected a:hover { background-color:#C89302; }
+
+.size_s .program_description, .size_s .pros_cons, .size_s .read_more_container { font-size:1em; }
+.size_m .program_description, .size_m .pros_cons, .size_m .read_more_container { font-size:1.2em; }
+.size_l .program_description, .size_l .pros_cons, .size_l .read_more_container { font-size:1.4em; }
+/* @endgroup RESIZER */
+
+/* @group TOPS */
+.program_logos #tops_country_list { max-height:220px; }
+.program_logos #tops_country_list li span { color:#006BC1; }
+
+#section_tops { position:relative; margin-top:16px; }
+#section_tops .generic_sub_title { border-top-color:#83A05B; color:#ADC08F; background:#E7EDDE; }
+#section_tops .generic_sub_title span { color:#83A05B; }
+#section_tops .hidden { display:none; }
+/* @endgroup TOPS */
+
+/* @group PROGRAM INFO */
+#program_info dl { padding:20px 19px; }
+#program_info dt { font-size:0.9em; color:#999; }
+#program_info dd { display:block; overflow:hidden; padding:4px 25px 4px 4px; position:relative; margin-bottom:12px; font:bold 1.25em 'Century Gothic', Arial, Verdana, Sans-serif; background:#f3f3f3; color:#333; }
+#program_info dd .plus_info { position:absolute; top:5px; display:block; overflow:hidden; right:5px; width:16px; height:16px; color:#FFF; font-weight:normal; background:#B6CDE4; font:bold .85em times new roman, sans-serif; text-align:center; border-radius:8px; }
+#program_info dd .plus_info:hover { text-decoration:none; background:#83A1BF; }
+#program_info .author { font-weight:normal; }
+#program_info #author_moresoft, #program_info .source_code { display:block; overflow:hidden; width:auto; padding-top:4px; margin-top:4px; font:.7em Arial, Verdana, Sans-serif; border-top:1px dotted #CCC; }
+#program_info .date_updated { display:block; padding-top:4px; border-top:1px dotted #ccc; color:#aaa; font-weight:normal; font-size:0.8em; }
+/* @group DETECTED OS */
+#program_info .your_os_ok, #program_info .your_os_ko, #requeriments_window .your_os_ok, #requeriments_window .your_os_ko { background:url(/mnmshared/img/icons/icons_sprite.png) no-repeat -9px -1117px; }
+#program_info .your_os_ok { padding-left:22px; background-position:-9px -1117px; }
+#program_info .your_os_ko { padding-left:18px; background-position:-93px -1196px; }
+/* @endgroup DETECTED OS */
+/* @endgroup PROGRAM INFO */
+
+/* @group PROGRAM INFO OVERLAY */
+/* @group COMMON */
+.program_info_overlay { background-color:#f3f8fc; }
+.program_info_overlay h4 { padding:6px 12px; border-bottom:1px dotted #ccc; font:1.4em 'Century Gothic', Arial, Verdana, sans-serif; }
+.program_info_overlay h4 em { font-weight:bold; font-style:normal; color:#c69200; }
+.overlay_content { overflow:hidden; padding:15px; }
+/* @endgroup COMMON */
+
+/* @group MORE LANGUAGES */
+#more_languages ul { float:left; margin-right:15px; }
+#more_languages .bullets_list li { margin-left:6px; }
+/* @endgroup MORE LANGUAGES */
+
+/* @group REQUERIMENTS WINDOW */
+#requeriments_window { width:500px; }
+#requeriments_window.program_info_overlay h4 { padding:6px 0; border-bottom:0; font-weight:bold; }
+#requeriments_window h5 { margin-bottom:10px; font:bold 1em Arial, Verdana, Sans-serif; }
+#requeriments_window h5.other_platforms { clear:left; padding-top:10px; border-top:1px solid #ccc; }
+
+#requeriments_window .your_os_ko { background-position:-93px -1196px; }
+#requeriments_window .your_os_ok, #requeriments_window .your_os_ko { padding:0 0 16px 20px; margin-top:5px; font:bold 1.3em 'Century Gothic', Arial, Verdana, Sans-serif; color:#C69200; }
+
+#requeriments_window ul.platform_list { margin:0; }
+
+#requeriments_window table { margin-bottom:16px; font-size:1em; }
+#requeriments_window table caption { display:none; }
+#requeriments_window table th, #requeriments_window table td { padding:5px 10px 5px 15px; vertical-align:top; }
+#requeriments_window table thead th { font-weight:bold; }
+#requeriments_window table tbody th { width:20%; padding-left:0; padding-right:0; }
+#requeriments_window table tbody td { width:40%; }
+#requeriments_window table .first { border-right:1px solid #CCC; font-weight:bold; }
+
+#requeriments_window table.only_minimum { margin-top:-15px; }
+#requeriments_window table.only_minimum .first { border-right:0; }
+#requeriments_window table.only_minimum th { text-align:right; }
+#requeriments_window table.only_minimum tbody td { width:60%; }
+
+#alternative_programs { padding:15px; margin:10px -15px -15px; background-color:#DBE6F2; }
+#alternative_programs h4 { padding:0 0 10px 0; border:0; }
+#alternative_programs li { width:46%; }
+#alternative_programs li, #alternative_programs li img { float:left; }
+#alternative_programs li.first { margin-right:30px; }
+#alternative_programs li h5, #alternative_programs li p { padding-left:48px; }
+#alternative_programs li h5 { margin-bottom:2px; font-size:1.2em; font-weight:bold; }
+#alternative_programs li p { margin:3px 0; }
+/* @endgroup REQUERIMENTS WINDOW */
+
+/* @group DOWNLOADS WINDOW */
+#download_chart { width:450px; height:150px; }
+#more_downloads dt { padding-bottom:6px; border-bottom:0; font:bold 1.4em 'Century Gothic', Arial, Verdana, sans-serif; }
+#more_downloads dd.value { font:bold 1.3em 'Century Gothic', Arial, Verdana, Sans-serif; color:#C69200; }
+#more_downloads dd.graph { margin-top:20px; }
+/* @endgroup DOWNLOADS WINDOW */
+
+/* @group EDITOR */
+#editor_info { width:350px; }
+#editor_info span { font-size:0.9em; color:#999; }
+#editor_info div.content { padding-bottom:10px; border-bottom:1px solid #CCC; }
+#editor_info .author img { float:left; margin-right:12px; }
+#editor_info .more { float:none; display:inline-block; padding-left:0; background-color:transparent; }
+/* @endgroup EDITOR */
+
+/* @group OLD VERSIONS OVERLAY */
+#all_versions_window { width:750px; }
+#all_versions_window table { background:#F3F8FC; margin:16px; border-bottom:2px solid #CCC; }
+#all_versions_window table caption { display:none; }
+#all_versions_window table td, #all_versions_window table th { padding:4px 8px; background:#FFF; }
+#all_versions_window table td { border-left:1px dotted #CCC; }
+#all_versions_window table th { background:#F3F8FC; font-weight:bold; }
+#all_versions_window table .name { width:188px; }
+#all_versions_window table .name span { display:block; font-size:0.9em; font-weight:normal; color:#999; }
+#all_versions_window table .os { width:145px; }
+#all_versions_window table .license, #all_versions_window table .language { width:88px; }
+#all_versions_window table .download { width:111px; }
+#all_versions_window table tr.odd td { background:#EDEDED; }
+#all_versions_window table tr.first, #all_versions_window p a { font-weight:bold; }
+#all_versions_window table td.first { border-left:0px none; }
+#all_versions_window table thead { display:block; overflow:hidden; width:720px; }
+#all_versions_window table tbody { display:block; width:720px; max-height:288px; overflow:auto; }
+#all_versions_window .your_os_ok, #all_versions_window .your_os_ko { background:url(/mnmshared/img/icons/icons_sprite.png) no-repeat -9px -1111px; }
+#all_versions_window .your_os_ko { background-position:-93px -1190px; }
+#all_versions_window .your_os_ok, #all_versions_window .your_os_ko { padding:0 0 0 20px; margin-top:5px; }
+#all_versions_window .download_new_m, #all_versions_window .buy_new_m, #all_versions_window .playonline_new_m, .install_qr_new_m { width:auto; }
+#all_versions_window .platform_list li { padding-bottom:0px; }
+#all_versions_window p { padding:0 16px 0 40px; background:url(/mnmshared/img/icons/icons_sprite.png) no-repeat 0 0 transparent; }
+#all_versions_window p.new_version { background-position:9px -136px; }
+#all_versions_window p.notify_me { background-position:9px -1214px; }
+#all_versions_window p a { font-weight:normal; }
+
+#all_versions_window .notifications { margin:0 16px 6px; }
+#all_versions_window .notifications p { padding:0; background:none; }
+#all_versions_window .notifications .close_notifications { display:none; }
+/* @endgroup OLD VERSIONS OVERLAY */
+
+/* @group LICENSE RESTRICTIONS */
+#license_restrictions { width:400px; }
+#license_restrictions p { margin-top:0; font:bold 1.4em 'Century Gothic', Arial, Verdana, sans-serif; }
+#license_restrictions p em { font-style:normal; color:#c69200; }
+/* @endgroup LICENSE RESTRICTIONS */
+/* @endgroup PROGRAM INFO OVERLAY */
+
+/* @group REVIEW BOX */
+/* @group TABS - REVIEW NAV */
+#review_nav { z-index:100; height:auto; border-right:1px solid #fff; }
+#review_nav ul { padding:0; border-left:1px solid #cddced; }
+#review_nav ul li a { background-color:#3285c2; padding:7px 12px; margin:6px 2px 0 2px; font:normal 1.3em 'Century Gothic', Arial, Verdana, sans-serif; }
+#review_nav ul li.active a, #review_nav ul li.active a:hover, #review_nav ul li.active a:focus { padding:13px 12px 8px; margin:0 2px; background-color:#fff; }
+#review_nav ul li.first a, #review_nav ul li.first a:hover, #review_nav ul li.first a:focus { margin-left:7px; padding-left:12px; }
+#review_nav ul li.active.first a, #review_nav ul li.active.first a:hover, #review_nav ul li.active.first a:focus { margin-left:0; padding-left:20px; border-left:none; }
+#review_nav ul li a:hover, #review_nav ul li a:focus { background-color:#c89302; text-decoration:none; }
+/* @endgroup TABS - REVIEW NAV */
+
+/* @group COMMON */
+#review_box .review, #review_box .no_review { clear:both; border-top:1px solid #cddced; border-right:1px solid #cddced; }
+#review_box .review { margin-top:-1px; }
+#company_review .review_title, #author_review, #review_box .no_review { padding-top:10px; }
+
+#review_box .review_title, #review_box .program_description { margin:0 15px 0 20px; }
+#review_box .review_title { padding-bottom:10px; border-bottom:1px dotted #ccc; }
+#review_box .review_title h2 { font:bold 1.8em 'Century Gothic', Arial, Verdana, sans-serif; }
+#review_box .review_title p { margin:3px 0 0; font-size:0.9em; }
+#review_box .program_description h3 { font-size:1.2em; font-weight:bold; }
+#review_box .program_description h3 strong { color:#000; }
+#program_improvements { margin:9px 0; }
+
+#review_box .program_screenshot { float:right; margin:12px 0 12px 12px; }
+#review_box .program_screenshot, #review_box .program_screenshot li, #review_box .program_screenshot .review_gallery_paginator a { width:236px; height:165px; }
+#review_box .program_screenshot li { position:relative; padding:0; background:none; }
+#review_box .program_screenshot li .screenshot_caption { position:absolute; bottom:0; display:block; width:100%; padding:3px 6px; background-color:#121c2d; background-color:rgba(18, 28, 45, 0.5); font-size:0.9em; color:#fff; }
+#review_box .program_screenshot a { position:relative; display:block; }
+#review_box .program_screenshot a .play_s { top:71px; left:83px; }
+#review_box .program_screenshot a .play_s em { margin-top:0; border:1px solid #fff; border-left:none; font-size:1em; }
+#review_box .program_screenshot .review_gallery_paginator a { position:absolute; }
+#review_box .program_screenshot a img { vertical-align:bottom; }
+#review_gallery { position:relative; }
+#review_gallery_nav { position:absolute; z-index:100; bottom:0; right:0; height:24px; }
+#review_gallery_nav a { display:block; float:left; width:18px; height:18px; padding:3px 0 3px 6px; background-color:#666; font-size:1.5em; color:#fff; text-decoration:none; }
+#review_gallery_nav a.previous { margin-right:1px; }
+#review_gallery_nav a.hidden_nav { opacity:.3; filter:alpha(opacity=30); cursor:default; }
+#review_gallery .review_gallery_paginator { position:absolute; }
+
+#review_data { display:inline; }
+.module_inside_review { clear:right; float:right; width:236px; margin:6px 0 12px 12px; }
+.module_inside_review h5 { padding:3px 6px; border-top-width:2px; border-top-style:solid; font:normal 1.3em 'Century Gothic', Arial, Verdana, sans-serif; }
+
+.read_more_container { position:relative; z-index:300; overflow:visible; width:479px; height:60px; margin:-60px 0 0 1px; background:-moz-linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 100%); background:-webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(255, 255, 255, 0)), color-stop(100%, rgba(255, 255, 255, 1))); background:linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 100%); }
+.read_more_cutter { position:absolute; bottom:-9px; right:12px; z-index:400; padding:2px 9px 2px 27px; background:#fff url(/mnmshared/img/icons/icons_sprite.png) no-repeat -82px -1502px; text-decoration:none; font-weight:bold; border:1px solid #CDDCED; }
+.read_more_cutter:hover { text-decoration:none; }
+
+.review_updated { text-align:right; font-size:0.9em; color:#999; }
+
+#review_box .pros_cons { clear:both; padding:15px 15px 15px 20px; border-top:1px solid #cddced; }
+#review_box .pros_cons div { float:left; width:50%; }
+#review_box .pros_cons strong { font:normal 1.4em 'Century Gothic', Arial, Verdana, sans-serif; }
+#review_box .pros_cons .pros strong { color:#008000; }
+#review_box .pros_cons .cons strong { color:#bb090d; }
+#review_box .pros_cons ul { padding-top:6px; }
+#review_box .pros_cons ul li { padding:2px 12px; background:url(/mnmshared/img/icons/icons_sprite.png) no-repeat; }
+#review_box .pros_cons .pros ul li { background-position:-10px -2104px; }
+#review_box .pros_cons .cons ul li { background-position:-10px -2183px; }
+/* @endgroup COMMON */
+
+/* @group COMPANY REVIEW */
+#review_blog_data h5 { border-top-color:#c69200; color:#c69200; }
+#review_blog_data ul li { border-bottom:1px dotted #ccc; padding:6px; background:none; }
+#review_blog_data ul li a { display:block; }
+/* @endgroup COMPANY REVIEW */
+
+/* @group AUTHOR REVIEW */
+#more_author_programs { border-bottom:1px dotted #ccc; }
+#more_author_programs h5 { border-top-color:#3285c2; }
+#more_author_programs ul { padding:6px 9px; }
+#more_author_programs ul li { padding:3px 9px; background:url(/mnmshared/img/icons/icons_sprite.png) no-repeat -96px -1692px; }
+/* @endgroup AUTHOR REVIEW */
+
+/* @group USERS' OPINION */
+#users_opinion { padding:18px 15px 15px 20px; }
+#users_opinion .reviewer { padding-bottom:9px; border-bottom:1px dotted #ccc; }
+#users_opinion .opinion_avatar { float:left; margin-right:12px; }
+#users_opinion .opinion_summary { overflow:hidden; }
+#users_opinion .opinion_summary .opinion_title { float:left; }
+#users_opinion .opinion_summary h2 { font:bold 1.6em 'Century Gothic', Arial, Verdana, sans-serif; }
+#users_opinion .opinion_summary p { margin:0; font-size:0.9em; color:#999; }
+#users_opinion .opinion_summary .opinion_data { float:right; width:12%; }
+#users_opinion .opinion_summary .opinion_data .number_rank { margin-top:-7px; color:#7c9542; }
+#users_opinion .opinion_body { clear:both; padding-top:6px; }
+#users_opinion #comment_valuation { float:right; width:25%; padding:9px 0 0 15px; margin:0 0 12px 9px; border-left:1px dotted #ccc; }
+#users_opinion #comment_valuation dl { overflow:hidden; }
+#users_opinion #comment_valuation dt, #users_opinion #comment_valuation dd { padding-bottom:3px; }
+#users_opinion #comment_valuation dt { float:left; padding-left:9px; background:url(/mnmshared/img/icons/icons_sprite.png) no-repeat -96px -1695px; }
+#users_opinion #comment_valuation dd { float:right; font-size:1.4em; font-weight:bold; }
+#users_opinion #comment_valuation dd.rank_low { color:#c00; }
+#users_opinion #comment_valuation dd.rank_medium { color:#f1a901; }
+#users_opinion #comment_valuation dd.rank_high { color:#7c9542; }
+#review_box #users_opinion .pros_cons { padding-left:0; border-top:none; }
+
+#review_box #vote_opinion { clear:both; padding:10px 0; border-top:1px dotted #ccc; border-bottom:1px dotted #ccc; }
+
+.new_comment_review { margin-top:30px; }
+.opinion_form_review { clear:none; float:left; width:363px; background-color:#e7edde; }
+#users_opinion .new_comment_review.evaluate .user, .no_review .new_comment_review.evaluate .user { float:left; width:62px; background-position:42px -1049px; }
+#users_opinion .new_comment_review.evaluate .photo, .no_review .new_comment_review.evaluate .photo { float:none; margin:12px 0 0; }
+
+.all_opinions { clear:right; margin-top:20px; text-align:right; }
+.all_opinions a { padding-right:27px; background:url(/mnmshared/img/icons/icons_sprite.png) no-repeat 100% -1697px; }
+/* @endgroup USERS' OPINION */
+
+/* @group NO REVIEW */
+#review_box .no_review .new_comment_review { padding:0 15px 15px 20px; }
+#review_box .no_review .new_comment_review h3 { padding:12px 0 15px 0; border-top:1px dotted #ccc; font-weight:bold; font-size:1.6em; }
+/* @endgroup NO REVIEW */
+/* @endgroup REVIEW BOX */
+
+/* @group OPINION */
+#opinions h4.generic_sub_title { border-top-color:#83A05B; color:#83A05B; }
+#opinions .evaluate { clear:both; }
+
+.average_rank { float:right; margin:0 0 5px 0; font-size:.9em; color:#83A05B; }
+.average_rank .num_rank { padding-left:3px; font:bold 1.2em 'Century Gothic', Arial, Verdana, Sans-serif; }
+
+.evaluate li { margin-top:15px; }
+.evaluate .opinion { display:block; height:1%; padding:15px; border:1px solid #CDDCED; background:#F7F7F7; }
+.evaluate .opinion h5 { font:bold 1.4em 'Century Gothic', Arial, Verdana, Sans-serif; }
+.evaluate .opinion_unic_rank { float:right; padding:0 4px 4px 4px; margin-left:6px; background:#FFF; font:bold 2.6em 'Century Gothic', Arial, Verdana, Sans-serif; color:#83A05B; text-align:center; }
+.evaluate .rank_xs { text-align:left; }
+.evaluate .opinion_unic_rank li { margin-top:8px; }
+
+.evaluate .user { width:100%; margin-top:-1px; font-size:.85em; background:url(/mnmshared/img/interface/interface_elements.png) no-repeat 0 -160px; }
+.evaluate .user a:hover { text-decoration:none; }
+.evaluate .user p { margin:0; padding:0; line-height:1em; color:#999; }
+.evaluate .user dl { padding:8px 0 0 119px; }
+.evaluate .user dl dt { display:none; }
+.evaluate .user dl dd.opinions { width:1.6em; padding:0 2px 0 20px; margin-top:.5em; border:1px solid #D2DCE0; border-radius:2px; -moz-border-radius:2px; -webkit-border-radius:2px; font-size:.9em; line-height:15px; color:#236297; }
+.evaluate .photo { float:left; margin:8px 0 0 78px; }
+.evaluate .nickname { line-height:12px; }
+
+#opinion_form { margin-top:15px; border:1px solid #C1CFAD; background-color:#EBEFE4; }
+#opinion_form label, .opinion_form_review label { color:#666; font-weight:bold; }
+#opinion_form p, .opinion_form_review p { float:right; margin:0; font-weight:bold; color:#999; font-size:.9em; }
+#opinion_form span.mandatory, .opinion_form_review span.mandatory { display:inline-block; float:right; font-size:.8em; color:#666; }
+
+#new_comment.evaluate .user { background-position:0 -214px; }
+#new_comment.evaluate .nickname, #users_opinion .new_comment_review.evaluate .nickname, .no_review .new_comment_review.evaluate .nickname { display:inline-block; padding:32px 0 0 3px; cursor:pointer; }
+
+.col_left #opinions h4.generic_sub_title { padding-left:16px; }
+.col_left .evaluate, .col_left #opinions .more_and_btn { margin-left:16px; }
+/* @endgroup OPINION */
+
+/* @group ANSWERS */
+#related_questions h4.generic_sub_title { margin-bottom:15px; border-top:2px solid #2a435f; color:#2a435f; }
+#related_questions h4.generic_sub_title em { font-size:0.6em; font-weight:normal; }
+
+.question_list h5 { padding:0 8px; font-size:1.1em; font-weight:bold; color:#006bcc; }
+.question_list .first_question h5 { font:bold 1.6em 'Century Gothic', Arial, Verdana, Sans-serif; }
+.question_list .first_question { background:url(/mnmshared/img/interface/interface_elements.png) no-repeat 100% -461px; }
+.question_list .question_content { overflow:hidden; height:1%; padding:10px 0; border-top:1px dotted #ccc; }
+.question_list .tags_answers { overflow:hidden; padding:0 8px; font-size:0.9em; }
+.question_list .tags_answers li { float:left; }
+.question_list .tags_answers a { padding-right:2px; color:#999; }
+
+#ask_form { border-top:1px dotted #ccc; }
+#ask_form { padding:18px 19px; }
+#ask_form li { margin-top:10px; }
+#ask_form label { font-weight:bold; }
+#ask_form label span { display:block; margin-bottom:8px; font-size:0.9em; font-weight:normal; }
+#ask_form div.error { color:#B50000; font-weight:bold; }
+#ask_form li.error textarea { border:1px solid #B50000; }
+/* @endgroup ANSWERS */
+
+/* @group ARTICLES */
+#blog_data h4 { padding-left:16px; color:#C69200; border-color:#C69200; }
+#blog_data li { display:block; overflow:hidden; width:auto; padding:16px 0 16px 16px; line-height:100%; border-top:1px dotted #CCC; }
+#blog_data li.first { border-top:0px none; }
+#blog_data a.thumbnail { float:left; margin-right:10px; }
+#blog_data a.thumbnail img { padding:8px; margin-top:4px; border:1px solid #CCC; box-shadow:1px 1px 3px #CCC; }
+#blog_data a.title { font:bold 1.3em 'Century Gothic', Arial, Verdana, Sans-serif; }
+#blog_data p { margin:0; }
+#blog_data p.author { padding:4px 0; font-size:0.95em; color:#999; }
+#blog_data .more_and_btn { margin:0; }
+/* @endgroup ARTICLES */
+
+/* @group SOCIAL MEDIA */
+.socialmedia_options { position:absolute; overflow:visible; right:0; top:166px; z-index:1; width:34%; padding-left:5px; }
+.social_options li { float:right; padding-right:10px; margin-top:10px; }
+.social_options li a.messenger { display:inline-block; padding:4px 3px 4px 21px; margin-top:40px; border:1px solid #B2E8FE; border-color:#B2E8FE #9CD1E8 #9CD1E8 #B2E8FE; background:#FFF url(/mnmshared/img/icons/icons_sprite.png) no-repeat -7px -1030px; color:#069; font:bold 100%/100% "Segoe UI", Tahoma, Geneva, Verdana; }
+.social_options li a:hover.messenger { text-decoration:none; }
+
+.socialmedia_retail { top:85px; overflow:hidden; }
+.socialmedia_retail .social_options li { margin-top:-40px; }
+/* @endgroup SOCIAL MEDIA */
+
+/* @group OCTOPUS */
+#octopus { position:relative; height:580px; margin-bottom:15px; }
+#octopus h4 { width:310px; font:bold 2.6em 'Century Gothic', Arial, Verdana, Sans-serif; background:url(/mnmshared/img/interface/interface_elements.png) no-repeat 0 -987px; }
+#octopus span { display:block; overflow:hidden; padding:0 0 .5em; font:normal 0.45em Arial, Verdana, Sans-serif; }
+#octopus li.element { position:absolute; display:block; overflow:hidden; width:280px; padding-top:8px; z-index:9999; box-shadow:3px 3px 3px #EDEDED; background:#FFF; border:1px solid #B6CDE4; border-left-width:4px; }
+#octopus li.element:hover { z-index:999999; }
+#octopus li.element h5 { padding:0 8px 8px; font:1.25em 'Century Gothic', Arial, Verdana, Sans-serif; color:#999; }
+#octopus li.element a.thumbnail { float:left; width:18%; margin:0 10px; }
+#octopus li.element p.info { float:left; width:65%; margin:0; }
+#octopus li.element p.info a { font-weight:bold; font-size:1.2em; }
+#octopus li.element p.info span.license { display:block; font-size:1em; font-weight:bold; margin:0; }
+#octopus li.element p.description { clear:both; display:block; margin:0 0 8px; padding:0 30px 0 10px; }
+#octopus li.element div.extra_info { display:none; clear:both; padding:8px; background:#EDEDED; border-top:1px dotted #B6CDE4; }
+#octopus li.element div.extra_info dl { float:left; width:50px; margin-right:16px; }
+#octopus li.element div.extra_info .download_new_m, #octopus li.element div.extra_info .buy_new_m,#octopus li.element div.extra_info .playonline_new_m, #octopus li.element div.extra_info .install_qr_new_m { width:auto; margin-top:10px; }
+#octopus li.element .more_octopus { position:absolute; bottom:0; display:block; overflow:hidden; right:0; width:16px; height:16px; padding:2px 3px 4px; color:#FFF; font-weight:normal; background:#B6CDE4; font-size:1.7em; text-align:center; }
+#octopus li.element .more_octopus:hover { text-decoration:none; background:#83A1BF; }
+#octopus li.no_result { position:absolute; width:308px; font:normal 1.2em/140% Arial, Verdana, Sans-serif; color:#B6CDE4; }
+#octopus li.no_result a { color:#B6CDE4; text-decoration:underline; font-weight:bold; }
+#octopus li.no_result a:hover { color:#006BC1; }
+#octopus .canvas-container, #octopus_canvas { position:absolute; display:block; margin:auto; width:980px; height:500px; z-index:99; }
+
+#alternatives, #complements, #sun { z-index:9999; }
+
+#alternatives h4 { position:absolute; left:16px; top:10px; padding-right:72px; text-align:right; color:#B6CDE4; background-position:317px -987px; }
+#alternatives li.no_result { top:74px; left:18px; z-index:9999; text-align:right; }
+#alternative_1.element { left:16px; top:80px; }
+#alternative_2.element { left:36px; top:242px; }
+#alternative_3.element { left:64px; top:405px; }
+#alternatives li.element a.thumbnail { margin-left:0; }
+#alternatives .send_compare { position:absolute; left:-15px; bottom:-49px; padding:2px 8px 5px 30px; z-index:300; background:url(/mnmshared/img/interface/interface_elements.png) no-repeat 0 -1453px; }
+#alternatives .compare_disabled { opacity:0.3; cursor:default; }
+#alternatives .btn { padding:2px 8px; background-position:0 -633px; font-size:1.25em; }
+#octopus li.alternative { overflow:visible; width:264px; border-left-width:20px; }
+#octopus li.alternative input { position:relative; left:-17px; float:left; }
+
+#complements h4 { position:absolute; right:16px; top:10px; padding-left:72px; color:#C2D1AF; background-position:-215px -987px; }
+#complements li.element { border-color:#C2D1AF; }
+#complements li.element .more_octopus { background:#C2D1AF; }
+#complements li.element .more_octopus:hover { background:#A4BC85; }
+#complements li.no_result { top:74px; right:18px; z-index:9999; color:#C2D1AF; border-color:#C2D1AF; }
+#complements li.no_result a { color:#C2D1AF; }
+#complement_1.element { right:16px; top:80px; }
+#complement_2.element { right:36px; top:230px; }
+#complement_3.element { right:64px; top:382px; }
+
+#sun { position:absolute; width:180px; top:120px; left:400px; }
+#sun .info { display:block; overflow:hidden; width:auto; text-align:center; font-weight:bold; font-size:1.2em; }
+#sun .info .thumbnail { display:block; margin:0 auto 8px auto; border-radius:5px; overflow:hidden; width:50px; height:50px; }
+#sun .extra_info { width:132px; margin:8px auto 0; }
+#sun .extra_info dl { float:left; width:50px; margin:0 8px 16px; }
+#sun .extra_info dl.user_rank { margin-right:0; }
+#sun .download_new_m, #sun .buy_new_m, #sun .playonline_new_m, #sun .install_qr_new_m { clear:both; margin-top:10px; width:auto; }
+
+#octopus .download_new_m, #octopus .download_new_m:hover { background-position:0 -1068px; }
+#octopus .download_new_m strong, #octopus .download_new_m strong:hover { padding-right:31px; background-position:right -1068px; }
+/* @endgroup OCTOPUS */
+
+/* @group SEARCH - OTHER LANGUAGES */
+#file_cloud { min-height:195px; }
+#file_cloud h4.generic_sub_title, #languages_reviews h4.generic_sub_title { position:relative; border-top:2px solid #c59200; color:#c59200; }
+#file_cloud h4.generic_sub_title { padding-left:16px; }
+
+#file_cloud .more { clear:left; float:none; margin-left:15px; }
+#file_cloud .tags { display:block; overflow:hidden; width:auto; height:1%; border:0; }
+#file_cloud ul { float:left; width:46%; margin-right:20px; }
+#file_cloud li { display:inline; }
+#file_cloud h1, #file_cloud h2, #file_cloud h3 { font-size:1.6em; }
+#file_cloud strong { font-size:1.2em; }
+#file_cloud em { font-size:1em; }
+
+.read_more_languages { padding:4px 0; background-color:#fff; }
+.read_more_languages .more_cutter { padding:2px 9px 2px 20px; background:#fff url(/mnmshared/img/icons/icons_sprite.png) no-repeat -90px -1504px; text-decoration:none; font-weight:bold; }
+
+#languages_reviews ul { margin-top:8px; }
+#languages_reviews li { padding:5px 15px 5px 2px; border-bottom:1px dotted #ccc; color:#666; line-height:25px; }
+#languages_reviews li em { font-style:normal; }
+#languages_reviews li span { display:none; }
+/* @endgroup SEARCH - OTHER LANGUAGES */
+
+/* @group GALLERY */
+#media_gallery { position:relative; width:100%; }
+#media_gallery ul { overflow:hidden; min-height:115px; padding:0 8%; }
+#media_gallery li { position:relative; z-index:200; float:left; width:10.6em; padding-left:34px; }
+#media_gallery .media_paginator li { display:none; }
+#media_gallery .media_paginator li a, #media_gallery .media_paginator li span { display:block; text-align:center; }
+#media_gallery .media_paginator li span { font-size:.9em; line-height:13px; }
+#media_gallery .media_paginator li img { border:1px solid #666; box-shadow:1px 1px 3px #CCC; }
+#media_gallery .photo_video { position:relative; }
+#media_gallery .play_s, #review_box .play_s { position:absolute; top:23px; left:30px; height:22px; padding-left:24px; background-position:0 -1000px; text-indent:0; text-decoration:none; }
+#media_gallery .play_s em, #review_box .play_s em { display:block; min-width:33px; padding:2px 5px; margin-top:1px; background-color:#000; opacity:.65; filter:alpha(opacity=65); color:#FFF; font-weight:bold; font-size:1.2em; font-style:normal; text-decoration:none; line-height:18px; cursor:pointer; }
+#media_gallery a:hover, #media_gallery a:hover .play_s { text-decoration:none; }
+#media_gallery a:hover span { text-decoration:underline; }
+
+#gallery_nav { position:absolute; top:88px; left:0; width:96%; padding:0 2%; }
+#gallery_nav .previous, #gallery_nav .next { display:block; float:left; width:36px; height:62px; background:url(/mnmshared/img/interface/interface_elements.png) no-repeat 0 -910px; text-indent:-99999px; }
+#gallery_nav .next { float:right; background-position:-40px -910px; }
+#gallery_nav .hidden_nav { display:none; }
+
+#program_video_modal_set #container { width:650px; overflow:hidden; position:relative; box-shadow:inherit; -webkit-box-shadow:inherit; -moz-box-shadow:inherit; }
+#program_video_modal_set #video_container { display:block; overflow:hidden; width:100%; height:100%; background:#000 url(http://va1en.sftcdn.net/shared) center 150px no-repeat; }
+#program_video_modal_set { background:#FFF; }
+#program_video_modal_set #video_footer { background:#FFF; padding-top:5px; }
+#program_video_modal_set #video_valuations { float:right; padding:12px; text-align:right; }
+#program_video_modal_set #rate_video { float:left; padding:0 10px; height:42px; }
+#program_video_modal_set #rate_video .do_you_like { padding:10px 0 0; }
+/* @endgroup GALLERY */
+
+/* @group SECURITY REVIEW */
+#file_security_review { clear:both; overflow:hidden; height:1%; padding:18px 12px 10px; }
+.file_security_antivirus_ko, .file_security_antivirus_ok { padding-left:19px; padding-right:30px; border:1px solid #CDDCED; border-top:0; background-color:#FFF7F7; }
+.file_security_antivirus_ok { background-color:#ecffe1; }
+
+#file_security_review .download_new_l { float:right; text-align:left; }
+#file_security_review .download_new_l, #file_security_review .download_new_l:hover { height:45px; background-position:0 -1012px; }
+#file_security_review .download_new_l strong, #file_security_review .download_new_l strong:hover { height:33px; padding:3px 52px 9px 1px; margin-left:10px; background-position:right -1012px; line-height:33px; }
+#file_security_review .program_name { clear:right; display:block; padding-right:5px; text-align:right; }
+
+#file_security_review .info_virus_free { float:left; width:65%; }
+#file_security_review .info_virus_free p, .info_virus_free h3 { padding-left:80px; }
+#file_security_review .info_virus_free h3 { font:bold 1.25em 'Century Gothic', Arial, Verdana, Sans-serif; }
+#file_security_review #virus_free_seal_link { float:left; width:64px; height:63px; background:#ECFFE1 url(http://va1en.sftcdn.net/img) no-repeat 0 -76px; text-indent:-99999px; }
+
+#file_security_review p.suspect { margin:0; font-size:1.4em; font-weight:bold; color:#DB0000; }
+#file_security_review .recomended_programs { overflow:hidden; }
+#file_security_review .recomended_programs li { float:left; }
+#file_security_review .recomended_programs li.first { border-right:1px solid #000; margin:1em 1em 0 0; padding-right:1em; font-weight:bold; }
+
+/* @group SECURITY SEAL POPUP */
+#security_seal_popup { padding:0 16px; margin:0 auto; color:#333; overflow:hidden; }
+#security_seal_popup h1.logo { float:left; margin:0; padding:0; width:122px; height:98px; text-indent:-10000em; background:#157BC3 url(/mnmshared/img/interface/interface_sprite.png) no-repeat scroll -90px 0; }
+#security_seal_popup p.info_security { text-align:right; padding:14px 0 0 0; margin:0; height:82px; overflow:hidden; }
+#security_seal_popup p.info_security a { position:relative; top:60px; }
+#security_seal_popup #file_security_download { width:auto; margin:10px 0; }
+#nyroModalContent .file_security_download_alternative { margin-top:20px; }
+
+#file_security_download { zoom:1; position:relative; overflow:hidden; padding:20px 20px 8px 23px; background:#efefef; margin-bottom:60px; }
+#file_security_download.download { height:1%; margin-bottom:25px; }
+#file_security_download h2 { margin-bottom:4px; font:bold 23px "Trebuchet MS", Arial, Helvetica, sans-serif; color:#333; }
+#file_security_download h2 strong { color:#bd0000; }
+#file_security_download p a { text-decoration:underline; }
+#file_security_download p.sure_question { float:left; width:67%; }
+#file_security_download p.download_option { float:right; margin-top:0; }
+#file_security_download p.download_option a { text-decoration:none; }
+
+.file_security_download_alternative { position:relative; margin-bottom:16px; }
+.file_security_download_alternative .box_dark_mainright .content { padding:18px 1px; }
+.file_security_download_alternative .software { float:left; background:#fff; width:44.5%; border-right:1px solid #ccc; padding:0 1.2em; margin-top:1.2em; }
+.file_security_download_alternative .software p { margin:0 0 0 82px; }
+.file_security_download_alternative .screen_program { float:left; }
+.file_security_download_alternative .software .file_program a { font-weight:bold; }
+.file_security_download_alternative .software .short_description { padding:4px 0 10px 0; }
+.file_security_download_alternative .last { border:none; }
+
+/* @group SECURITY SEAL RED NYROMODAL */
+#nyroModalContent #file_security_download { padding:5px 22px 0; margin-bottom:0px; background:none; }
+#nyroModalContent #file_security_download h2 { font:normal 2.1em 'Century Gothic', Arial, sans-serif; letter-spacing:-.03em; color:#333; margin-bottom:4px; }
+
+#nyroModalContent .file_security_download_alternative { display:inline-block; height:auto; background:#f2f6f4 url(http://va3en.sftcdn.net/img) no-repeat right bottom; }
+#nyroModalContent .file_security_download_alternative .software { width:327px; border:none; padding:0 15px 21px; background:none; }
+#nyroModalContent .file_security_download_alternative h4.section_title { border-color:#2fa41e; background:none; color:#4d7b0f; font-size:1.9em; letter-spacing:-.03em; }
+#nyroModalContent .file_security_download_alternative h4.section_title em { color:#4d7b0f; }
+/* @endgroup SECURITY SEAL RED NYROMODAL */
+/* @endgroup SECURITY SEAL POPUP */
+/* @endgroup SECURITY REVIEW */
+
+/* @group HEAD TITLE */
+#program_head { height:1%; padding:.5em 0 1.5em 1.5em; }
+#program_head .soft_thumbnail { float:left; margin-left:5px; }
+#program_head h1 { clear:both; width:65%; margin:0 0 15px 0; background:#fff url(/mnmshared/img/interface/interface_elements.png) repeat-x 0 -337px; font:bold 3em 'Century Gothic', Arial, sans-serif; line-height:50px; }
+#program_head h1.file_title_img { clear:none; width:57%; margin-left:70px; }
+#program_head h1.title_size_s { line-height:40px; }
+#program_head h1 a { background:#fff; }
+#program_head h1 a:hover { text-decoration:none; }
+#program_head h1 a strong { margin-right:5px; color:#000; white-space:pre-wrap; }
+#program_head h1 span { display:block; padding-right:5px; color:#BBB; font-size:.5em; font-weight:normal; line-height:20px; }
+#program_head h1 em { padding-right:5px; color:#BBB; font-size:0.75em; font-style:normal; font-weight:normal; }
+#program_head .security_header_info { margin:0; padding-bottom:10px; color:#D80000; font-size:1.2em; font-weight:bold; }
+#program_head .security_header_info a { font-size:0.8em; font-weight:normal; }
+#program_head .security_header_info span { color:#000; }
+
+.program_buttons { overflow:hidden; }
+.program_buttons li { float:left; margin:0 20px 15px 0; }
+.program_buttons p.receiveby { clear:left; margin:0; padding-left:10px; }
+.program_buttons p.virus_free_note { margin:0; padding-left:15px; }
+
+.program_buttons dl.special_offer { float:left; overflow:hidden; height:1%; border:1px dashed #ccc; padding:5px; }
+.program_buttons dl.special_offer dt { display:none; }
+.program_buttons dl.special_offer .num_discount { float:left; padding:10px 5px; background-color:#ededed; font-size:1.5em; font-weight:bold; color:#333; }
+.program_buttons dl.special_offer li, .program_buttons dl.special_offer p { margin:0; padding-left:10px; }
+.program_buttons dl.special_offer p { padding-left:60px; }
+/* @endgroup HEAD TITLE */
+
+/* @group BUTTONS */
+.buy_program_xl, .buy_program_xl:hover, .buy_program_xl strong, .buy_program_xl strong:hover, .buy_program_price_xl, .buy_program_price_xl:hover, .buy_program_price_xl strong, .buy_program_price_xl strong:hover, .buy_program_price_xl span, .buy_program_price_xl span:hover, .buy_program_price_xl em, .buy_program_price_xl em:hover { float:left; background:#bb7e00 url(http://va3en.sftcdn.net/shared) 0 -66px no-repeat; }
+
+.buy_program_xl, .buy_program_xl:hover, .buy_program_price_xl, .buy_program_price_xl:hover { height:52px; overflow:hidden; margin:0 0 3px 0; font:bold 2.5em 'Century Gothic', Arial, sans-serif; letter-spacing:-.035em; text-decoration:none; cursor:pointer; }
+.buy_program_xl strong, .buy_program_xl strong:hover, .buy_program_price_xl strong, .buy_program_price_xl strong:hover { margin:0 0 0 15px; padding:3px 30px 15px 8px; background-position:right -66px; color:#FFF; text-shadow:0.035em 0.035em 0.04em #626262; line-height:26pt; text-align:center; white-space:nowrap; }
+.buy_program_price_xl strong, .buy_program_price_xl strong:hover { padding:3px 15px 15px 8px; background:-15px top; }
+.buy_program_price_xl span, .buy_program_price_xl span:hover { padding:0 0 0 16px; background-position:-253px top; }
+.buy_program_price_xl em, .buy_program_price_xl em:hover { position:relative; padding:8px 30px 15px 0; background-position:right top; color:#000; font-size:0.8em; font-style:normal; text-align:center; white-space:nowrap; }
+
+/* @group BUTTONS WITH DISCOUNT */
+.buy_program_price_xl em.price_with_discount { padding-top:11px; padding-bottom:12px; }
+.buy_program_price_xl span.old_price { position:absolute; left:0; top:2px; float:none; display:block; margin-bottom:5px; padding:0; background:none; color:#E20101; font-size:0.5em; text-decoration:line-through; }
+/* @endgroup BUTTONS WITH DISCOUNT */
+
+/* @group BUTTON FOR PROGRAM FILE */
+#program_new_summary_set .download_new_xl { width:auto; }
+.download_new_xl em, .download_new_l em { font-style:normal; }
+.download_new_m em, .download_new_s em, .download_new_l span, .download_new_m span, .download_new_s span { display:none; }
+.download_new_xl, .download_new_xl:hover, .download_new_xl strong, .download_new_xl strong:hover { position:relative; float:left; background:#5f9a0d url(/mnmshared/img/icons/button_new_sprite.png) 0 -932px no-repeat; }
+.download_new_xl, .download_new_xl:hover { height:71px; overflow:hidden; margin:0 0 3px 0; font:bold 2.4em 'Century Gothic', Arial, sans-serif; letter-spacing:-.035em; text-decoration:none; cursor:pointer; }
+.download_new_xl strong, .download_new_xl strong:hover { margin-left:15px; padding:3px 88px 33px 8px; background-position:right -932px; color:#FFF; text-shadow:0.035em 0.035em 0.04em #626262; text-align:center; white-space:nowrap; }
+.download_new_xl span, .download_new_xl span:hover { position:absolute; bottom:1em; left:2em; color:#FFF; font:normal 0.42em Arial, sans-serif; letter-spacing:0; }
+
+#octopus .download_web_new_m { clear:left; width:auto; }
+/* @endgroup BUTTONS FOR PROGRAM FILE */
+
+/* @group AB/TEST */
+#follow_download .download_new_l, #follow_download .download_new_l:hover, #follow_download .download_new_l strong, #follow_download .download_new_l strong:hover { float:left; background:#5F9A0D url(http://va3en.sftcdn.net/shared) 0 0 no-repeat; }
+#follow_download .download_new_l, #follow_download .download_new_l:hover { width:auto; height:55px; }
+#follow_download .download_new_l strong, #follow_download .download_new_l strong:hover { padding:3px 62px 9px 1px; margin-left:10px; background-position:right 0; line-height:43px; }
+
+#follow_download { position:fixed; top:0; overflow:visible; z-index:300; width:100%; min-width:980px; height:44px; border-bottom:6px solid #2A435F; background:#21354B; -webkit-box-shadow:4px 2px 5px rgba(50, 50, 50, 0.70); -moz-box-shadow:4px 2px 5px rgba(50, 50, 50, 0.70); box-shadow:4px 2px 5px rgba(50, 50, 50, 0.70); }
+#follow_download img { float:right; margin:-65px 10px 0 0; }
+#follow_download #wrapper_content { position:relative; width:995px; margin:0 auto; }
+#wrapper_content.corporate_logo { background:url(http://va3en.sftcdn.net/shared) 98% -53px no-repeat; }
+#follow_download .wrapper_btn { float:left; padding:8px 4px 2px 10px; background:#21354B url(http://va3en.sftcdn.net/shared) 0 -113px repeat-x; border-bottom-left-radius:6px; border-bottom-right-radius:6px; -webkit-border-bottom-right-radius:6px; -webkit-border-bottom-left-radius:6px; }
+#follow_download h5 { float:left; margin-top:12px; padding-left:10px; font:1.8em 'Century Gothic', Arial, sans-serif; color:#FFF; }
+#follow_download .versions { padding-left:8px; font-size:.8em; color:#CCC; }
+#follow_download .socialmedia_options { height:22px; top:12px; overflow:hidden; }
+#follow_download .socialmedia_options .social_options li { margin-top:-40px; }
+/* @endgroup AB/TEST */
+
+/* @endgroup BUTTONS */
+
+/* @group LEGAL NOTE */
+#legal_advisory { float:left; width:94%; margin-top:40px; }
+/* @endgroup LEGAL NOTE */
+
+/* @group CATEGORY SPONSORSHIP */
+#category_sponsorship { margin:43px 0 -14px 0; }
+/* @endgroup CATEGORY SPONSORSHIP */
+
+/* @group OPINION PAGE */
+/* @group OPINION STEPS */
+#opinion_time_info { font-family:'Century Gothic', arial, sans-serif; }
+#opinion_time_info em { font-style:normal; }
+#opinion_time_info ol { padding-left:30px; margin-top:70px; }
+#opinion_time_info li { padding-left:50px; margin-bottom:25px; }
+
+#opinion_time_info .active, #opinion_time_info .active span.arrow, #opinion_time_info .visited { background:url(/mnmshared/img/interface/interface_elements.png) -18px -1466px no-repeat; }
+#opinion_time_info .no_visited a, #opinion_time_info .no_visited .time, #opinion_time_info .active a, #opinion_time_info .active .optional, #opinion_time_info .visited em, #opinion_time_info .visited .optional, #opinion_time_info .visited .time { display:none; }
+#opinion_time_info .no_visited, #opinion_time_info .active, #opinion_time_info .visited { font-size:1.3em; color:#CCC; }
+#opinion_time_info .no_visited .optional { font-size:.9em; }
+
+#opinion_time_info .active { position:relative; height:86px; padding:20px 0 15px 50px; border:1px solid #CDDCED; border-left:none; color:#000; background-color:#FFFFC4; }
+#opinion_time_info .active span.arrow { position:absolute; top:-1px; left:0; height:123px; width:43px; background-position:0 -1577px; }
+#opinion_time_info .active .time { display:block; width:60%; padding:4px 0 0 19px; font-size:1.3em; font-weight:bold; color:#C59200; line-height:28px; }
+
+#opinion_time_info .visited { padding-left:68px; color:#A3B688; background-position:-214px -7px; }
+#opinion_time_info .visited a { float:right; padding:3px 10px 0 0; font:.7em Arial, Verdana, sans-serif; text-decoration:underline; }
+/* @endgroup OPINION STEPS */
+
+/* @group OPINION LONG FORM */
+#opinion_area { margin-left:20px; }
+#opinion_area h1, #opinion_area h2 { margin:10px 0 25px; font:2.4em 'Century Gothic', arial, sans-serif; }
+#opinion_area h1 strong { color:#000; }
+#opinion_area h2 { margin:0 0 15px; font-size:1.6em; }
+#opinion_area h2 strong { color:#667F46; }
+#opinion_area.evaluate .user { background-position:0 -1740px; }
+#opinion_area.evaluate .nickname { float:left; margin:28px 0 0 5px; }
+
+#user_opinion_form { border:1px solid #CDDCED; background:#EDEDED; }
+#user_opinion_form.form { padding:20px; }
+#user_opinion_form label { display:block; padding-bottom:8px; font:1.4em 'Century Gothic', arial, sans-serif; color:#000; }
+#user_opinion_form .btn { font-size:1.4em; font-weight:bold; }
+#user_opinion_form textarea, #user_opinion_form .pros input, #user_opinion_form .cons input, #user_opinion_form #title { width:97%; padding:8px 8px 8px 5px; border:1px solid #CCC; -webkit-box-shadow:inset 2px 2px 5px #d2d2d2; box-shadow:inset 2px 2px 5px #d2d2d2; }
+
+#user_opinion_form .step_options { clear:left; margin-bottom:15px; text-align:right; }
+#user_opinion_form .step_options a { font-size:1.2em; text-decoration:underline; }
+#user_opinion_form .step_options .btn { margin-left:20px; }
+
+#user_opinion_form .pros input, #user_opinion_form .cons input { width:94%; }
+#user_opinion_form #title, #user_opinion_form #body_opinion { margin-bottom:15px; }
+#user_opinion_form .btn_form_opinion { background-position:100% -680px; }
+
+#user_opinion_form .easy_comment_opinion { padding:15px; margin-bottom:15px; background-color:#DFDFDF; }
+#user_opinion_form .easy_comment_opinion h3 { font-size:1.4em; color:#000; }
+#user_opinion_form .easy_comment_opinion a { float:right; text-decoration:underline; font-size:.9em; }
+
+#user_opinion_form .cons, #user_opinion_form .pros { float:left; width:270px; padding:10px; margin-bottom:15px; }
+#user_opinion_form .pros { border:1px solid #667F46; margin-right:15px; background-color:#E2EAD9; color:#667F46; }
+#user_opinion_form .cons { border:1px solid #B20000; background-color:#F3E0DE; color:#B20000; }
+#user_opinion_form .add_more { float:right; padding-top:5px; font-size:1em; }
+
+#user_opinion_form .rate { overflow:hidden; height:1%; padding-bottom:15px; }
+#user_opinion_form .rate h4 { float:left; width:41%; margin-top:4px; font-size:1.22em; color:#000; }
+#user_opinion_form .rate li { float:left; width:43.5%; padding:10px 14px; border:1px solid #FFF; background-color:#FFF; }
+#user_opinion_form .rate .first_col { margin-right:15px; }
+
+#user_opinion_form li.rank_active { border:1px solid #667F46; background-color:#E2EAD9; }
+#user_opinion_form li.rank_active .slider { background-position:0 -38px; }
+.slider_option .slider, .slider_option .slider .ui-slider-handle, .slider_option .slider span { background:transparent url(http://va2en.sftcdn.net/shared) no-repeat top left; }
+.slider_option .slider { float:left; overflow:visible; width:120px; height:16px; margin:7px 8px 0 0; border:0; }
+.slider_option .slider .ui-slider-handle { top:8px; width:13px; height:15px; border:0; margin-left:-6px; background-position:0 -90px; cursor:pointer; }
+.slider_option .slider span { display:block; height:15px; background-position:0 0; }
+.slider_option .slider span.rankLow, .slider_option .slider span.rankMedium, .slider_option .slider span.rankHigh { background-position:0 -19px; }
+.slider_option .ui-corner-all { -moz-border-radius:0; }
+.slider_option .value { width:10%; border:0; background-color:transparent; font:bold 1.8em 'Century Gothic', arial, sans-serif; color:#667F46; }
+.slider_option .empty { margin-left:-51px; font-size:85%; color:#999; }
+/* @endgroup OPINION LONG FORM */
+/* @endgroup OPINION PAGE */
+
+
+/* END program_npf.css */
+/* START FILE overwrite.css */
+
+
+/* Header */
+#search_input { width: 345px; }
+
+/* Program.css overload */
+h1#file_title { padding:0 16px 9px; margin:0; clear:both; font:bold 2.7em Century Gothic, Arial, sans-serif; color:#1F1F1F; line-height:40px; }
+
+.ltr h1#file_title.file_title_img { padding-left:80px; margin-bottom:10px; clear:none; font-size:2.5em; }
+.rtl h1#file_title.file_title_img { padding-right:80px; margin-bottom:10px; clear:none; font-size:2.5em; }
+
+h1#file_title a strong { color:#000; }
+h1#file_title a:hover { text-decoration:none; }
+h1#file_title em { font-style:normal; color:#BBB; font-size:0.75em; font-weight:normal; }
+h1#file_title .item { color:#C89302; }
+h1#file_title span { font-weight:normal; }
+h1#file_title em.free_download { color:#4D7B0F; font-size:1em; }
+h1#file_title.no_results { font-weight:normal; }
+h1#file_title.awards_winner { width:70%; }
+#file_title.comparative a { color:#BBB; }
+#file_title.comparative em { color:#006BC1; }
+
+.ltr #badge_devel h1#file_title { padding-left:0; }
+.rtl #badge_devel h1#file_title { padding-right:0; }
+
+.download #file_title { font-weight:normal; font-size:2.6em; }
+
+#program_head h1 {
+    background-position: 0 -345px;
+}
+
+/* messenger button is missing */
+#program_head h1.file_title_img { width: 66% }
+.socialmedia_options { width: 25%; }
+/**/
+
+h1#file_title.file_title_img { padding-right: 0px; }
+
+#logo a img {
+    position: absolute;
+    top: 0;
+    opacity: 1;
+}
+.ltr #logo a img { left: 0; }
+.rtl #logo a img { right: 0; }
+
+.section_title strong { color: #006BC1; }
+/* download page thumbnail */
+#download_set .soft_thumbnail { margin: 0 18px; }
+#topbar { display: none; }
+/* Tick */
+.rtl .free_download_box .download_tips_box li {
+     background-position: right -1094px;
+}
+
+
+
+#categories_nav ul li { background-image: none; }
+#program_info dd { padding:  4px 4px 4px 4px }
+
+/* HEADER */
+.rtl #search_cnt { background-position: 54px -148px; }
+.rtl #lang_selector .lang_link span { margin: 0 -22px 0 0; padding: 10px 8px 14px 50px; }
+
+/* PROGRAM & Download button */
+.rtl #content_info_review { background-position: 480px 0; } /*sidebar*/
+.rtl .download_new_xl span, .rtl .download_new_xl span:hover,
+.rtl .download_new_xl, .rtl .download_new_xl:hover { padding-right: 60px; }
+.rtl .download_new_xl, .rtl .download_new_xl:hover {
+    background-position: right -932px;
+}
+.rtl .download_new_s strong, .rtl .download_new_s strong:hover{
+    margin: 0 0 0 6px;
+    padding: 4px 29px 9px 4px;
+    background-position: right -101px;
+}
+
+.rtl #file_security_review .download_new_l strong, .rtl #file_security_review .download_new_l strong:hover {
+    padding: 3px 52px 9px 2px;
+    margin: 0 0 0 10px;
+    background-position: right -1012px;
+}
+
+.rtl #file_security_review .download_new_l, .rtl #file_security_review .download_new_l:hover
+{
+
+}
+
+.rtl .download_new_l { padding:  0 0 0 5px; width: 150px; }
+.rtl .download_new_l strong, .rtl .download_new_l strong:hover  {
+    background-position: right -60px;
+    margin: 0;
+}
+.rtl .download_new_m { padding:  0 0 0 5px; width: 150px; }
+.rtl .download_new_m strong, .rtl .download_new_m strong:hover {
+    background-position: right -101px;
+    margin: 0;
+}
+
+.rtl .download_button_slide  { background-position: right -824px; }
+
+
+/* ARABIC AND THAI FONTS ARE NOT READABLE */
+.ar_SA .program_description { font-family: 'Amiri', Arial, serif; font-size: 1.3em; }
+.th_TH .program_description { font-family: 'Noto Sans Thai', sans-serif;  font-size: 1.3em;}
+
+.ar_SA .program_description,
+.th_TH .program_description{
+    font-size: 1.3em;
+}
+
+.ar_SA .program_description p,
+.th_TH .program_description p { line-height: 1.5em;}
+
+.ar_SA .section_title h4 span,
+.ar_SA h4.section_title span,
+.ar_SA #program_info dt,
+.th_TH .section_title h4 span,
+.th_TH h4.section_title span,
+.th_TH #program_info dt{ font-size: 1.5em; }
+
+
+
+
+/* Rating stars */
+.rtl #file_ranking_new, .rtl .rank_s
+{
+    direction: ltr; /* Force stars written in Left to right.*/
+}
+
+.rtl .rank_s .rank {
+    text-indent: 1000em;
+}
+
+.rtl .pros_cons ul {
+    list-style: inherit;
+    list-style-position: inside;
+    list-style-type: square;
+}
+.rtl #review_box .pros_cons ul li {
+    background: none;
+}
+
+/* User opinions */
+
+.evaluate .photo { margin: 0px; }
+.evaluate .user { background: none; }
+
+/* PROGRAM SIDEBAR */
+.ru_RU #file_ranking_new .user_rank, .ru_RU #file_ranking_new .softonic_rank {
+    width: 100%;
+}
+
+.ru_RU .number_rank { padding:0 10px; float: right; }
+.ru_RU .rank.rank_s { float: left; margin: 13px 0px 0px 14px; }
+
+#download_set .show_banner_medium_rectangle { border:0px; }
+
+/* Fontal's love on language list */
+#languages_available li {
+    overflow: hidden;
+    padding: 5px 15px;
+    border-bottom: 1px dotted #ccc;
+    float:left;
+    width: 120px;
+}
+
+#languages_available {
+    display: none;
+    position: absolute;
+    z-index: 3000;
+
+    width: 25em;
+    margin-top: 32px;
+    background-color: #fff;
+    border: 4px solid #157BC3;
+    text-align: left;
+    box-shadow: 0px 5px 10px #333;
+    -moz-box-shadow: 0px 5px 10px #333;
+    -webkit-box-shadow: 0px 5px 10px #333;
+}
+
+
+
+/* END overwrite.css */
