@@ -1,8 +1,5 @@
 # 1. Описание
 
-fdgfdg fdgdfg fdgdfg fdgdfgdf fdgdfg dfg,ds bls fdkmd ke fk ldf k dfdfffffff
-fff,,ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffd dddddddddddddddddddddddddddddddd
-
 CSSgz (CSS gzip) подготавливает css-файлы, после минимизации с помощью CSSO (CSS Optimizer), для лучшего сжатия с помощью
 [gzip](http://www.gzip.org/).
 
