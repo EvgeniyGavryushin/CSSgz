@@ -11,7 +11,7 @@
 18580	../compressed_by_gzip/_19.css.gz
 15165	../compressed_by_gzip/_1.css.gz
 11008	../compressed_by_gzip/_20.css.gz
-11138	../compressed_by_gzip/_21.css.gz
+11134	../compressed_by_gzip/_21.css.gz
 14639	../compressed_by_gzip/_22.css.gz
 16617	../compressed_by_gzip/_23.css.gz
 12708	../compressed_by_gzip/_24.css.gz
