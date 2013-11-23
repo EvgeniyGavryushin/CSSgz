@@ -1,0 +1,935 @@
+/* HP styles */
+.play 	{clear:both; height:100%; background:#FFF; position:relative; z-index:1}
+.play .playDownWrap {border:3px solid #FFF;padding:5px 0px;}
+.play h2{color:#000;padding:18px 0 0 23px;font-size:2em;font-weight:100;width:155px;float:left;}
+.playBox{border-left:1px dotted #9c9c9c;width:133px;float:left;height:100px;margin:15px 0 0 5px;padding:0 5px 0 15px;font-weight:bold;color:#2d2d2d;line-height:1.3em}
+
+.playDown 			{margin:15px 0 0 0px;border:1px solid #e9e7e7;background-color:#eeeeee;float:left;width:300px;color:#616b71;}
+.playDown ul		{list-style-type:none;}
+.playDown ul .one	{background:url('/rsa/images/1.png') no-repeat;padding:0 0 2px 25px;margin:9px 0 0 15px; line-height:.8em}
+.playDown ul .two	{background:url('/rsa/images/2.png') no-repeat;padding:0 0 2px 25px;margin:3px 0 0 15px; line-height:.8em}
+.playDown ul .three	{background:url('/rsa/images/3.png') no-repeat;padding:0 0 7px 25px;margin:3px 0 0 15px; line-height:.8em}
+.playDown .arrow	{background:url('/rsa/images/arrow.png') no-repeat;padding:0 0 7px 25px; line-height:.7em}
+.playDown .play		{background:url('/rsa/images/play.png') no-repeat;padding:2px 0 5px 25px; line-height:.7em}
+.playDown .left  	{display:block;border-top:1px dotted #9c9c9c;width:132px;float:left;padding:5px 0 3px 15px}
+.playDown .right 	{display:block;border-top:1px dotted #9c9c9c;width:136px;float:left;padding:5px 0 3px 10px;border-left:1px dotted #9c9c9c}
+
+.promoHP 		{background:url('/rsa/images/promo-hp.png') repeat-x 0 0;width:100%;height:142px;position:relative;clear:both; z-index:100}
+.promoHP h2 	{color:#000;padding:30px 0 0 23px;font-size:2em;font-weight:100;float:left}
+#promotionsHP 	{position:absolute;top:20px;right:20px;width:780px;height:104px}
+
+a:link#arrowLeft, a:visited#arrowLeft, a:link#arrowRight, a:visited#arrowRight {position:absolute;top:35px;background:url('/rsa/images/promoarrows.png') no-repeat;width:19px;height:40px;cursor:pointer}
+a:link#arrowLeft, a:visited#arrowLeft 	{left:2px; background-position:0 0;}
+a:hover#arrowLeft 						{background-position:0 -80px}
+a:link#arrowRight, a:visited#arrowRight {right:2px; background-position:0 -40px;}
+a:hover#arrowRight 						{background-position:0 -120px}
+
+/* Rotator */
+.banner 			{height:320px;width:980px;position:relative;background:url('/rsa/images/banner-bg.jpg') no-repeat top left; z-index:10}
+.rotateHolder 		{position:absolute;left:11px;top:7px;width:956px;height:288px;background-color:#000;z-index:2}
+#rotator 			{position:relative;width:100%;height:100%;overflow:hidden;border:1px solid #000}
+#rotator div.slide 	{position:absolute;display:none;width:980px;height:100%;background-color:#000;text-align:left; margin:0}
+
+.bHolder 			{clear:both; text-align:center;}
+.bHolder a 			{height:9px;width:9px;float:left;margin-right:5px;text-decoration:none;background-color:#262626;color:#000;outline:none;overflow:hidden}
+.bHolder a.selected {background-color:#e41e26;color:#fff}
+#rotateBanner 		{position:absolute;top:0;left:0}
+
+.rotateHolderPromo  		{width:940px;height:345px;background-color:#000; position:relative;}
+.rotateHolderPromo #bHolder {position:absolute; bottom:10px; left:50%;z-index:150}
+ 
+#pokerDownload {position:absolute;top:185px;left:535px;z-index:1000}
+
+div.rotateHolder span#bHolder.bHolder 				{position:absolute;top:295px;left:50%;z-index:7;font-size:.9em}
+div.rotateHolder span#bHolder.bHolder  a 			{height:9px;width:9px;float:left;margin-right:5px;text-decoration:none;background-color:#262626;color:#000;outline:none;overflow:hidden}
+ div.rotateHolder span#bHolder.bHolder  a.selected 	{background-color:#e41e26;color:#fff}
+ 
+.learnMoreHP { position:absolute;top:140px;left:545px; z-index:1000; color:#F00; font-weight:bold; cursor:pointer}
+/*Panes*/
+.paneTest 	{width:776px;overflow:hidden;position:relative;height:124px;margin-top:3px;margin-left:2px}
+.paneHolder {position:relative}
+.pane 		{width:156px;height:96px;float:left;display:block;}
+
+/*Pro Rotator*/
+.teamPro 				{width:156px;height:250px;position:relative; background:url('/rsa/images/hp-team-pokerstars.jpg') no-repeat center}
+#proRotator 			{position:relative;width:100%;height:100%;overflow:hidden;}
+#proRotator div.slide 	{position:absolute;display:none;width:140px;height:100%;background-color:#000;text-align:left}
+#proRotateN, #proRotateP{position:absolute;top:38px;width:26px;height:28px;z-index:8;display:block;text-indent:-1000px;overflow:hidden;}
+#proRotateN 			{right:0px;background-position: -26px 0;} 
+#proRotateP 			{left:0px;background-position:0 0;}
+.proLabel 				{position:absolute;left:37px;top:35px;width:80px;text-align:center;color:#FFF; font-weight:bold}
+.proLabel a 			{color:#FFF}
+#proRotator  a:hover 	{text-decoration:none}
+#teamProLink 			{position:absolute;top:5px;left:10px;z-index:9;height:17px;letter-spacing:-1px;padding:5px 0 0 20px;color:#555;font-weight:bold}
+
+/*ScrollBar*/
+.scrollgeneric 	 {line-height:1px;font-size:1px;position:absolute;top:15px;left:0}
+.vscrollerbase 	 {width:20px;background-color:#FFF}
+.vscrollerbar 	 {width:20px;background-color:black}
+.vscrollerbar 	 {background:url(/rsa/images/design/scrollbarbg.gif) repeat-y #1b7f8d;margin:-1px 0;border:solid 1px #d7d7d7;width:6px}
+.vscrollerbar:hover {background-position:-120px center;cursor:pointer}
+.vscrollerbarbeg {width:17px;height:1px !important}
+.vscrollerbarend {border:0px solid #fff; width:17px;height:10px !important}
+.hscrollerbarbeg {height:5px;width:20px !important}
+.hscrollerbarend {height:15px;width:20px}
+.scrollerjogbox  {width:20px;height:15px;top:auto;left:auto;bottom:0px;right:0px}
+.vscrollerbase 	 {background:url(/rsa/images/design/scrollbg.gif) repeat-y 3px 0px;}
+.scrollNews 	 {height:185px;overflow:auto; margin-top:0}
+
+/* Features */
+.features 	{padding:20px;; background:#FFF; position:relative; z-index:100}
+
+/* HP Tabs  */
+#hpFeatures				{width:456px;height:250px;border:1px solid #CCC;color:#000;position:relative;float:left;display:block; overflow:hidden; margin:0}
+#hpFeatures img 		{vertical-align:middle}
+#hpFeatures .list2 		{position:inherit}
+#hpFeatures .tabContent .list2 { position:absolute;}
+#hpFeatures  .tabNav 	{background:#FFF; }
+#hpFeatures .tabNav a 	{color:#CCC;position:relative;height:25px;display:block;float:left;background-position:0 -501px;background-color:#000 ;cursor:pointer;width:142px;padding:12px 0 4px 10px;text-decoration:none;font-weight:bold;outline:none; margin:0; border:0}
+#hpFeatures .tabNav .t 	{display:block;float:left;height:33px;padding-top:5px}
+
+#hpFeatures .tabNav a.last .right		 {background:url('/rsa/images/tabdivider.png') no-repeat left;width:2px;height:17px;position:absolute;top:10px;left:0}
+#hpFeatures .tabNav a.active.last .right {background:none}
+#hpFeatures .tabNav a.first .right		 {background:url('/rsa/images/tabdivider.png') no-repeat left;width:2px;height:17px;position:absolute;top:10px;right:0}
+#hpFeatures .tabNav a.active.first .right{background:none}
+
+/* HP TabContents  */
+#hpFeatures .tabContent  	 {background:#FFF;clear:both; padding:5px 10px 10px 10px; margin:0}
+#hpFeatures .tabContent h4 	 {font-size:1.1em;color:#1b7f8d;padding:0px 0 10px 15px; margin:5px 0 0 0;}
+#hpFeatures .tabContent img  {padding:0 5px 5px 15px}
+#hpFeatures .tabContent ul li{padding:0px 15px 3px 15px}
+#hpFeatures .tabContent p 	 {line-height:1.4em}
+/* HP Active Tabs */
+#hpFeatures .tabNav a.active,#hpFeatures .tabNav a:hover.active {color:#666;background:url('/rsa/images/hp-tab-active.png') repeat-x #FFF}
+#hpFeatures .tabNav a:hover 		{color:#FFF}
+
+#hpFeatures .tabNav a .text 		{padding:1px 0 3px 25px;background:url('/rsa/images/tab-img-sprite.png') no-repeat;}
+#hpFeatures .tabNav a.th0 .text 	{background-position:0 0}
+#hpFeatures .tabNav a.th1 .text 	{background-position:0 -38px}
+#hpFeatures .tabNav a.th2 .text 	{background-position:0 -76px}
+
+#hpFeatures .tabNav a.th0.active .text {background-position:0 -19px}
+#hpFeatures .tabNav a.th1.active .text {background-position:0 -57px}
+#hpFeatures .tabNav a.th2.active .text {background-position:0 -95px}
+
+
+/* HP Tabs2  */
+#hpSocial			{width:298px;height:250px;border:1px solid #CCC;color:#000;position:relative;float:left;display:block; overflow:hidden;margin:0px 12px 0 12px;}
+#hpSocial img 		{vertical-align:middle}
+#hpSocial .list2 	{position:inherit}
+#hpSocial .tabContent .list2 { position:absolute;}
+#hpSocial  .tabNav 	{background:#FFF; }
+#hpSocial .tabNav a 	{color:#CCC;position:relative;height:25px;display:block;float:left;background-position:0 -501px;background-color:#000 ;cursor:pointer;width:139px;padding:12px 0 4px 10px;text-decoration:none;font-weight:bold;outline:none;border:0}
+#hpSocial .tabNav .t 	{display:block;float:left;height:33px;padding-top:5px}
+
+/* HP TabContents  */
+#hpSocial .tabContent  	 {background:#FFF;clear:both;}
+
+/* HP Active Tabs */
+#hpSocial .tabNav a.active,#hpSocial .tabNav a:hover.active {color:#666;background:url('/rsa/images/hp-tab-active.png') repeat-x #FFF}
+#hpSocial .tabNav a:hover 						{color:#FFF}
+
+#hpSocial .tabNav a .text 		{padding:1px 0 3px 25px;background:url('/rsa/images/tab-img-sprite.png') no-repeat;}
+#hpSocial .tabNav a.th4 .text 	{background-position:0 -114px}
+#hpSocial .tabNav a.th5 .text 	{background-position:0 -152px}
+
+#hpSocial .tabNav a.th4.active .text {background-position:0 -133px}
+#hpSocial .tabNav a.th5.active .text {background-position:0 -171px}
+
+.newsList	{list-style-type:none; padding:20px 10px 10px 20px;margin:0 0 5px 0}
+.newsList li{background:url('/rsa/images/li2.gif') no-repeat 0 2px; padding:5px 0 15px 15px;margin:0 0 0px}
+.newsList .author{color:#a5a5ab}
+
+.teamPro 			{float:left;margin:0px 0 15px 0;display:block}
+
+.list2 			{background:#eeeeee;display:block;height:16px;width:100%;padding:0px 0 0 0px;position:absolute;bottom:0;left:0;border-top:1px solid #d1d1d1; overflow:hidden;}
+.list2 li 		{display:inline;border-left:solid 1px #aeb5bd;padding:0px 10px 0px 10px !important}
+.list2 li.first {padding:0 2px;display:inline;border-left:none}
+
+.list-hp 			{list-style-type:none; padding:0px 5px 3px 0px;margin:0px 5px 0px 15px;}
+.list-hp li 		{background:url('/rsa/images/li1.gif') no-repeat 0 2px; padding:0px 0 5px 15px; line-height:1.5em}
+.imgFloatLeft 		{float:left; margin:0 5px 5px 0}
+
+.hpSocialMedia				{display:block;margin:0px 20px 0px 20px;position:relative; clear:both; border-bottom:1px dotted #aeb5bd; padding:10px 0}
+ .smLast 		{ border:none}
+.hpSocialMedia .introImg 	{margin:5px 0 0 0; float:left}
+.hpSocialMedia .button 		{margin:5px 0 0 0; float:right; display:block}
+.socialText					{margin:5px 0 0 0; float:left;padding:0 0 0 10px; }
+.hpSocialMedia #googL		{margin:5px 0 0 0 !important; display:block !important; float:right !important}
+
+body, html, p, div, img, ul, li, h1, h2, h3, h4, a, hr, label, span {padding:0; margin:0; border:none; line-height:1.1em; word-spacing:0; letter-spacing:0; outline:none; -webkit-text-size-adjust: 100%; -moz-text-size-adjust: 100%;-ms-text-size-adjust: 100%;}
+table {width:100%;}
+select, option {padding:0; margin:0; outline:none;}
+select {border:1px solid #CCC; color:#666; font-size:14px; padding:4px; margin:0;}
+textarea:focus, input:focus{outline: none;}
+
+html 		{background:#E5E6E8; height:100%;}
+body 		{background:#E5E6E8; font-size:11px; color:#21211F; font-family:Verdana, Arial, Helvetica, sans-serif; height:100%;}
+#wrapper 	{background:url('/assets/images/bg2.jpg') repeat-x center top #E5E6E8; width:100%; display:table; height:1205px;}
+#watermark 	{background:url('/assets/images/watermark.jpg') no-repeat center center; height:734px; width:100%; top:118px; position:absolute;}
+
+h1, h2, h3, h4, select, option, #online, #staticNav, .stepItem, #realMTable tr.realMRow td, table th, .siteFooterCont, .exControlLink, #regTabs .tabNav, .downloadPlay, .sundayWinner, .clock, .time, .findSteps, .specialBoxHeadline {font-family:Arial, Helvetica, sans-serif;}
+#proRotateN, #proRotateP, .closeButton, .closeButton:hover {background-image:url('/assets/images/sprite/sprite-ico.png'); background-repeat:no-repeat;}
+.floatBlock a:hover {text-decoration:none;}
+.strong {font-weight:700;}
+
+/* --------------------------------------------------- SPRITE ---------------------------------------------------- */
+/* -- Background - no-repeat -- */
+#online, .onlineTitle, .onlineSeparator, #siteNav a, #siteNav a:hover, #siteNav .active, #logos, #languageSelector ul li a, #languageSelector ul li a:hover, #languageSelector ul li a.active, .staticTabs li ul li a:hover, .staticTabs ul#staticNav li ul li, .staticTabs li ul li a, h2.h, .leftCol h1, .inner h1, .portalRight .boxLink, .preFooterInner .preFooterLink, .rightCol .boxLink, .boxLeft50 ul li, .boxRight50 ul li, .rightMenu li a, .boxR .rightMenu li a,  .blogFeed .boxLink, .topQestions ul li, .promoText, .languages li, .languagesP li a, .hpBoxText, .hpBox ul li,
+/* -- HTML -- */
+.spHomeButton, #googL, #facebookL, #tweetL, .spDownArrow
+{background-image:url('/assets/images/sprite/general.gif'); background-repeat:no-repeat;}
+/* -- General Sprite HTML Spec -- */
+.spHomeButton	{background-position:-600px -120px; text-indent:-9999px; position:relative; display:block; width:12px; height:13px; }
+.spDownArrow	{background-position:-600px -100px; text-indent:-9999px; position:absolute; display:block; width:9px; height:5px; top:12px; right:5px; overflow:hidden; text-align:left}
+#googL			{background-position:-700px -100px; text-indent:-9999px; position:relative; display:block; width:25px; height:16px; float:left; margin-right:5px}	
+#facebookL		{background-position:-700px -120px; text-indent:-9999px; position:relative; display:block; width:16px; height:16px; float:left; margin-right:5px}
+#tweetL			{background-position:-700px -140px; text-indent:-9999px; position:relative; display:block; width:16px; height:16px; float:left;}
+.h2.h, .leftCol h1, .inner h1 	{background-position:-20px -196px; position:relative; display:block; }
+
+.ribbon, #imgTournaments, #imgFreeTournaments, #imgSpecialOffers, #imgLearnBest, .footImgSpecialOffers, .footImgDownload, .footImgFacebook, .footImgMobile
+{background-image:url('/assets/images/sprite/general2.png'); background-repeat:no-repeat;text-indent:-9999px; position:relative; display:block;}
+/* -- General2 Sprite HTML Spec -- */
+#imgTournaments		{background-position:0 0; width:120px; height:97px;}
+#imgFreeTournaments	{background-position:-200px 0; width:120px; height:97px;}
+#imgSpecialOffers	{background-position:-400px 0; width:120px; height:97px;}
+#imgLearnBest		{background-position:-600px 0; width:120px; height:97px;}
+
+.footImgFacebook		{background-position:-800px 0; width:157px; height:124px;}
+.footImgDownload		{background-position:-1000px 0; width:157px; height:124px;}
+.footImgSpecialOffers	{background-position:-1200px 0; width:157px; height:124px;}
+.footImgMobile			{background-position:-1400px 0; width:157px; height:124px;}
+
+
+/* -- Background - repeat-x -- */
+#languageSelector, .staticTabs, .staticTabs li a:hover, .staticTabs li a.active, .staticTabs ul li a:hover, .staticTabs li:hover > a, .siteContent, .siteContentPortal, .siteContentPortalIn
+{background-image:url('/assets/images/sprite/repeat-x.png'); background-repeat:repeat-x;}
+
+.preFooterInner, .box h2, .hpDownloadLink.onCenter
+{background-image:url('/assets/images/sprite/repeat-x2.png'); background-repeat:repeat-x;}
+
+/* -- Lang Sprite HTML - no-repeat -- */
+#psLogo, .spFooterLogo, .spFooterDownload, .spSectionHeader, #overMemebers, #overHands, #overTourneys
+{background-image:url('/assets/images/sprite/sprite-local.png'); background-repeat:no-repeat; text-indent:-9999px; position:relative; display:block;}
+
+/* -- Lang Sprite HTML Spec -- */
+#psLogo 		 {background-position:0 0; margin:33px 0 0 0; width:284px; height:34px; z-index:1000; float:left;}
+.spFooterLogo	 {background-position:-300px 0; display:inline; width:145px; height:27px;float:left;}
+.spFooterDownload{background-position:-500px 0; width:167px; height:31px;}
+.spSectionHeader {background-position:0 -500px; width:980px; height:102px;}
+
+#hpMainBanner	{background-position:0 -250px; width:930px; height:280px;}
+#overMemebers 	{background-position:0 -100px; width:168px; height:78px;}
+#overHands 		{background-position:-200px -100px; width:168px; height:78px;}
+#overTourneys 	{background-position:-400px -100px; width:168px; height:78px;}
+
+
+/* -------------------------------------------------- / SPRITE --------------------------------------------------- */
+
+/* --------------------------------------------------- General ---------------------------------------------------- */
+a 			{color:#1b7f8d; text-decoration:none;}
+a:hover 	{text-decoration:underline;}
+h1 			{padding:25px 0 0 20px; color:#000; font-size:22px;}
+h2 			{padding:10px 0 10px 20px; margin:0 0 15px 0; color:#000; font-size:1.5em;}
+p, li 		{line-height:1.5em;}
+hr 			{border-top:1px dotted #999; clear:both; height:1px; margin:15px 20px; display:block;}
+.divider 	{padding:0 0 20px;}
+.clear 		{clear:both;}
+.pointer	{cursor:pointer;}
+.small 		{color:#999; margin:3px 0 0 0; font-size:10px;}
+sup 		{font-size:9px;}
+.red 		{color:#D30C04 !important;}
+.grey 		{color:#b2b2b2 !important; font-weight:bold;}
+.big 		{font-size:23px;}
+.center 	{text-align:center;}
+h2.h 		{margin:0 0 15px 0; color:#000;  padding:0px 0 0px 30px; border:none;}
+#bgright 	{position:absolute; right:0px;}
+#pokerDownload {position:absolute; top:180px; left:500px; z-index:1000;}
+#psLogo 	{margin:33px 0 0 0; position:relative; z-index:1000;}
+.noLink 	{cursor:default;}
+/* --------------------------------------------------- Top Navigation --------------------------------------------------- */
+#topMenuWrap 	{width:980px; position:absolute; top:15px; right:0px;  text-align:right; height:30px; z-index:110;}
+
+#online 		{display:table; background-position:right -20px; position:relative; height:26px; float:right}
+.onlineTitle 	{display:block; float:left;  background-position:-20px -20px; color:#aeb5bd; height:19px; padding:7px 20px 0 9px}
+.onlineSeparator{display:block; float:left; background-position:-300px -20px; color:#aeb5bd; height:19px; padding:7px 9px 0 9px}
+#ncPlayers, #ncActiveTournaments {color:#ff0007; margin:0 5px 0 0;}
+
+.lang 	  {float:right;}
+.lang a   {margin:0px 0 11px 15px; padding:8px 20px 8px 10px; background:#131212; border-radius:6px; -moz-border-radius: 6px; display:block; color:#aeb5bd;}
+.lang img {vertical-align:middle}
+ 
+.lang a#languageSelectorTrigger.active, .lang a#languageSelectorTrigger:hover {background:#131212; color:#FFF; border-radius:0; -moz-border-radius: 0;}
+#languageSelector 			{display:none; width:400px; z-index:100; background-position:0 0; background-color:#131212; position:absolute; right:0; top:28px; border:5px solid #131212; text-align:left; z-index:110}
+#languageSelector ul 		{margin:10px 0; width:33%; float:left; border-right:1px solid #373636; border-right:1px solid #1d1b1b;}
+#languageSelector ul li 	{list-style-type:none; padding: 6px 0px 6px 15px;line-height:1em}
+#languageSelector ul li a 	{background-position: -500px -95px; color:#e4e2e2; padding:0 0 0 15px;}
+#languageSelector ul li a:hover, #languageSelector ul li a.active {background-position: -500px -115px; text-decoration:none; font-weight:bold;}
+#languageSelector ul li span {color:#F00; font-weight:bold;}
+
+#topMenu 			{color:#666; list-style-type:none; display:block; clear:both; position:relative; z-index:8;}
+#topMenu li 		{display:inline; border-left:dotted 1px #666;padding:0px 5px 0px 8px;}
+#topMenu a 			{color:#aeb5bd; text-decoration:none;}
+#topMenu a:hover, #topMenu a.active{color:#FFF;}
+#topMenu .first 	{border-left:none;}
+#topMenu .last a	{padding-right:0px;}
+
+/* --------------------------------------------------- Site Navigation ---------------------------------------------------*/
+#siteNav 	{position:absolute; top:87px; left:2px; font-size:12px; z-index:9;}
+#siteNav ul {list-style:none; padding:1px 0; display:block; }
+#siteNav li {display:block; float:left; white-space:nowrap; margin:0;}
+#siteNav a 	{padding: 8px 48px; display:block; text-decoration:none; font-weight:bold; background-position:right -94px; color:#aeb5bd; border:0px; margin-left:-2px;}
+#siteNav a:hover, #siteNav .active {padding: 8px 48px 8px 47px; color:#FFF; background-position:right -150px; border-left:1px solid #404040; margin-left:-2px}
+
+#siteNav .first img {padding:1px 0;}
+#siteNav .first a 	{padding:8px 20px ;}
+#siteNav .first a:hover, #siteNav .first .active {padding:8px 20px 8px 19px;}
+
+/* --------------------------------------------------- Wrap ---------------------------------------------------- */
+#container 			{position:relative; width:980px; margin:auto; height:137px;}
+#siteWrap 			{position:relative; clear:both; height:100%;}
+.siteHeader 		{position:relative; height:118px; z-index:100;}
+.siteContent 		{position:relative; background-position:0 -770px; background-color:#fff; position:relative; z-index:2; padding:25px 0 50px 0;}
+.siteContentPortal 	{position:relative; background-position:0 -770px; background-color:#fff;position:relative; padding:0 0 30px 0;}
+.siteContentPortalIn{position:relative; background-position:0 -770px; background-color:#fff; position:relative; padding:0 0 50px 0;}
+.siteFooter 		{position:relative; background:#000; z-index:2; height:100%; width:980px;}
+.contentWrap 		{position:relative; background:url('/assets/images/contentwrap.png') repeat-y 658px; clear:both;}
+/* --------------------------------------------------- Left Col ---------------------------------------------------- */
+.leftCol 	{width:613px; float:left; color:#474747; display:block; padding:0px 20px 0px 25px; position:relative; max-height:999999px;}
+.leftCol p	{padding:10px 0 20px 0;}
+.leftCol h1 {margin:0px 0 15px 0; padding:0px 0 0px 30px; position:relative;}
+.leftCol h2 {margin:10px 0; padding:0; font-size:17px; color:#000;}
+.leftCol h3 {margin:5px 0 5px 0; padding:0; font-size:13px; color:#474747;}
+.leftCol hr {margin:15px 0;}
+.leftCol ul, .leftCol ol {margin:5px 0 20px 16px;}
+.leftCol li {padding:0 0 5px 20px;}
+.imgFloatLeft1 {float:left; margin:0px 15px 5px 0px; position:relative; border:1px solid #cdcecd;}
+.imgFloatLeft2 {float:left; margin:0px 15px 15px 0px; position:relative; border:5px solid #cdcecd;}
+.imgFloatLeft3 {float:left; margin:15px; position:relative;}
+.imgFloatLeft4 {float:left; margin:0px 15px 15px 0px; position:relative;}
+.imgFloatLeft5 {float:left; margin:5px 15px 15px 15px; position:relative;}
+.imgFloatLeft6 {float:left; margin:15px 15px 15px 0px; position:relative;}
+.imgFloatLeft7 {float:left; margin:15px 0px 0px 0px; position:relative;}
+.imgFloatLeft8 {float:left; margin:0px 15px 0px 0px; position:relative;}
+.imgFloatRight {float:right; margin: 15px; position:relative;}
+.imgFloatRight2 {float:right; margin: 10px; position:relative;}
+ol.inFloat 	{margin-left:195px; display:block;}
+.imgBorder 	{border:5px solid #d0cfcf; margin:20px 0;}
+.imgPadding {margin:20px 0;}
+/* --------------------------------------------------- Right Col ---------------------------------------------------- */
+.rightCol 		{width:275px; float:left; color:#474747; display:block; position:relative; margin:0 0 0 20px; padding:0; max-height:999999px;}
+.rightCol h2 	{padding:0; color:#272727;}
+.rightCol h3 	{font-size:15px; margin:0 0 15px 0; color:#272727;}
+.rightCol p 	{margin:0 0 10px 0;}
+.rightCol hr 	{margin:15px 0; border-top:1px solid #D1D1D1; clear:both; display:block;}
+.rightCol hr.divider 	{margin:15px 0; padding:0 0 15px 0; border-top:1px dotted #D1D1D1; height:1px;}
+.rightCol hr.divider2 	{margin:0; padding:0 0 0 0; border-top:1px solid #e2e2e2; height:1px;}
+.rightCol hr.space 		{margin:5px 0; padding:0 0 15px 0; border-top:0px dotted #D1D1D1; height:1px; color:#FFF;}
+.rightCol .imgFloatLeft {float:left; padding:0; margin:0 20px 0 0; position:relative;}
+.rightCol .boxLink 		{background-position:-800px -146px;  padding:0px 0 0 15px; margin:10px 0 0 0; clear:both;}
+.rightTier 				{clear:both; border-top:1px solid #FFF; border-bottom:1px solid #e2e2e2; padding:10px 0;}
+.rightTierlast			{clear:both; border-top:1px solid #FFF; border-bottom:none; padding:10px 0 0 0;}
+.rightTier p 			{margin:0 0 4px 0;}
+.rightCol h3 a 			{color:#000; text-decoration:none;}
+.rightCol h3 a:hover 	{color:#1B7F8D; text-decoration:none;}
+/* --------------------------------------------------- 50-50 design---------------------------------------------------- */
+.inner 		{padding:20px 25px; position:relative;}
+.inner h1 	{margin:0px 0 15px 0; padding:0px 0 0px 30px; position:relative;}
+/* --------------------------------------------------- 50-50 design---------------------------------------------------- */
+.left50 				{width:450px; float:left; margin:0 0px 0 25px; display:block; position:relative;}
+.right50 				{width:430px; float:left; margin:0 0px 0 45px; display:block; position:relative;}
+.left50 hr, .right50 hr {margin:5px 0px 15px 0px;}
+.left50 p, .right50 p 	{padding:0 0 22px 0; margin-top:10px;}
+.featureLink 			{font-weight:bold; font-size:13px;}
+.right50 h2 			{color:#666666; padding:0; font-size:1.3em;}
+/* --------------------------------------------------- 50-50 Small design---------------------------------------------------- */
+.smallLeft50 	{width:120px; float:left; padding:0 6px 0 0; margin:0 0 2px -10px; display:block; position:relative; border-right:1px solid #fdfdfd;}
+.smallRight50 	{width:120px; float:left; padding:0 0 0 8px; margin:0 -10px 2px 0; display:block; position:relative; border-left:1px solid #dcdbdb;}
+/* --------------------------------------------------- Static Tabs --------------------------------------------------- */
+.staticTabs 		{background-position:0 -500px; background-color:#e5e5e6; height:34px; position:relative; padding-left:20px; z-index:90;}
+.staticTabsSocial 	{position:absolute; right:27px; top:8px;}
+.staticTabs ul 		{font-size:1.1em; list-style: none;}
+.staticTabs ul li 	{position: relative; float:left; _width:1%; white-space:nowrap;}
+.staticTabs li ul 	{position: absolute; left: 0; top: 34px; display: none;}
+.staticTabs ul li a {display:block; padding:11px 10px 10px 10px; font-weight:bold; font-size:1em; color:#000; border-right:1px solid #CCC;}
+.staticTabs li a:hover, .staticTabs li a.active {color:#d0020d; text-decoration:none; background-position:0 -550px; background-color:#fff}
+* html .staticTabs ul li 	{float: left; height: 1%; background:fff;}
+* html .staticTabs ul li a 	{height: 1%;}
+.staticTabs ul li a:hover 	{color: #E2144A; background-position:0 -550px; background-color:#f9f9f9;}
+.staticTabs li ul li 		{float:none;}
+.staticTabs li ul li a 		{padding:5px 10px 5px 10px; border-right:none; margin-left:10px; font-weight:bold; background-position: -500px -95px;}
+.staticTabs li ul li a:hover{background-position: -500px -130px;}
+.staticTabs li:hover ul, .staticTabs li.over ul {display: block; background:#FFF; white-space:nowrap; font-size:.9em; border:1px solid #CCC; border-top:none; margin-left:-1px; min-width:150px}
+.staticTabs li:hover > a	{background-position:0 -550px; background-attachment:scroll; background-color: transparent; display:block;}
+.staticTabs ul#staticNav li ul li a {background-position: -500px -130px;}
+/* --------------------------------------------------- Boxes ---------------------------------------------------- */
+.box 			{border:1px solid #dfdfdf; background:#fafafa; position:relative; clear:both; max-height:999999px;}
+.box h2 		{background-position:0 -300px; border-bottom:1px solid #dfdfdf; font-size:16px; padding:13px 13px 10px 15px; display:block; margin:0;}
+.box h2.h 		{margin:0 0 15px 0; color:#000; font-size:18px; padding:0px 0 0px 15px; border:none; font-weight:normal;}
+.box h3 		{font-size:14px; margin:20px 0 15px 15px;}
+.box .headerMain{font-size:1em; padding:15px 0 0 15px; color:#39909c;}
+.box .headerSub {font-size:1em; padding:0 0 0 0px; color:#39909c;}
+.box p 			{padding: 0px 15px 10px 15px; margin-top:0px;}
+.featureLineLeft{padding:0 15px 10px 10px; float:left; width:312px; margin:0 40px 0 0; display:block; position:relative;}
+.box .textFloat {padding:15px; margin:10px;}
+.box hr 		{margin:5px 15px 15px 15px;}
+.box ul 		{margin:20px; list-style-type:none;}
+.box ul li 		{background-position: -800px -146px; padding:3px 0 2px 15px; margin:0 0 0;}
+.box ol 		{padding:0 20px; margin:10px 30px; font-weight:bold; font-size:12px;}
+.box ol li 		{padding:5px;}
+.boxul 			{border:1px solid #dfdfdf; background:#fafafa; position:relative; clear:both;}
+.boxul .textFloat{padding:15px; margin:10px;}
+.boxul hr 		{margin:5px 15px 15px 15px;}
+.boxul ul 		{padding:0 20px; margin:10px 30px; font-weight:bold; font-size:12px;}
+.boxul ul li	{padding:5px;}
+.boxul h3		{margin:10px 0 0 10px; font-size: 16px;}
+.box table		{margin:0px auto 5px auto; width:585px; position:relative; clear:both;}
+.boxTop			{margin:0 0 20px 0;}
+.boxMid			{margin:15px 0 25px 0;}
+.boxBtm			{margin:20px 0 0 0;}
+.boxAlt			{background:url('/assets/images/box-videobg.jpg') repeat-x bottom; border:2px solid #fff;}
+.boxPromo p		{padding:0px 20px 10px 12px;}
+.inner2			{padding:20px 15px 10px 15px;}
+.inner2 .imgFloatLeft2 {margin-right:25px;}
+.box .inner		{padding:15px 0; position:relative;}
+.box .left50, .box .right50 	{width:440px; float:left; margin:0 0px 25px 20px; display:block; position:relative;}
+.leftInBox, .rightInBox 		{width:280px; float:left; position:relative;}
+.leftInBox h3, .rightInBox h3 	{margin:10px 0 0px 15px;}
+.leftInBox ul, .rightInBox ul 	{margin:5px 0 15px 15px;}
+.box .leftInBox li, .box .rightInBox li{font-weight:bold;}
+/* --------------------------------------------------- Box 50-50 ---------------------------------------------------- */
+.boxLeft50 	{width:275px; float:left; padding:0 12px 0 0; margin:0 12px 0 0px; display:block; position:relative;}
+.boxRight50 {width:275px; float:left; margin:0 0px 0 0px; display:block; position:relative;}
+.boxLeft50 h3, .boxRight50 h3 {padding:0; margin:10px 0 0 15px;}
+.boxLeft50 ul, .boxRight50 ul {padding:0 0 0 15px; margin:10px 0 10px 0; font-weight:bold; list-style-type:none;}
+.boxLeft50 ul li, .boxRight50 ul li {padding:0 0 0 15px; margin:12px 0 12px 15px; background-position:-800px -146px; }
+/* --------------------------------------------------- FAQ ---------------------------------------------------- */
+.boxQA 		{border:1px solid #dfdfdf; background:#fafafa; position:relative; padding:20px; max-height:999999px;}
+.boxQA h2	{font-size:17px; margin:5px 0 15px 0;}
+.boxQA h3	{font-size:12px; margin:10px 10px 10px 0;}
+.boxQA h3 span.label {width:20px; display:inline-block;}
+.boxQA .ans .label, .boxQA .ansLast .label {width:20px; display:inline-block; font-weight:bold; font-size:12px;}
+.boxQA .ans {border-bottom:1px dotted #CCC; padding-bottom:20px; margin-bottom:20px;}
+.boxQA .ansLast {border-bottom:none; padding-bottom:0px; margin-bottom:0px;}
+.boxQA ul	{margin:10px 32px;}
+.boxQA ol	{padding:0; margin:15px 0 0 32px;}
+.boxQA hr	{margin:20px 0;}
+.boxQA p	{padding:5px 0;}
+.boxQA img	{margin:10px 0;}
+.boxQA .imgSuits {margin: 0;}
+.backLink	{color:#D30C04; text-align:right; margin:15px 0 0 0;}/* --------------------------------------------------- Box right ---------------------------------------------------- */
+.boxR		{border:1px solid #dedede; background:#f5f5f5;/*position:relative*/;}
+.boxR .boxWrap {border:2px solid #FFF; padding:15px 10px 15px 18px;}
+.boxR .imgFloatLeft {float:left; padding:0; margin:0 0 0 0;}
+.boxR p		{margin:0 0 5px 0;}
+.boxRTop	{margin:0;}
+.boxRMid	{margin:30px 0;}
+.boxRBtm	{margin:10px 0 0 0;}
+.boxRAlone	{margin:0 0 30px 0;}
+.boxR h3 a:link, .boxR h3 a:visited {color:#000;}
+.boxR h3 a:hover {color:#1b7f8d; text-decoration:none;}
+.hboxR		{padding:0;}
+/* --------------------------------------------------- Box right ---------------------------------------------------- */
+.boxMenu				{border:1px solid #dedede; background:#f5f5f5; position:relative;}
+.boxMenu h2, .boxMenu p {padding:0 0 0 20px;}
+.boxMenu .imgFloatLeft	{float:left; padding:0; margin:0 0 0 0;}
+.boxMenu .boxWrap		{border:2px solid #FFF; padding:20px 0 0 0px;}
+.boxMenu hr				{margin:20px; border-top:1px solid #D1D1D1; clear:both;}
+.boxMenu img			{padding:0 0 0 20px;}
+.rightMenu				{list-style-type:none; padding:0px 0px 5px 0; margin-bottom:5px;}
+.rightMenu li a			{background-position:-779px -139px;  padding:3px 5px 3px 40px; margin:0; line-height:2.1em; font-weight:bold; display:block;}
+.rightMenu li a.active 	{color:#000; background-color:#eaeaea;}
+.rightMenu li a:hover 	{color:#000; background-color:#eaeaea; text-decoration:none;}
+.rightMenu li ul		{background:none; list-style:none;}
+.rightMenu li ul li a	{background:none; padding:0 0 0 40px;}
+.boxR .rightMenu li a	{background-position:-800px -138px; padding:3px 5px 3px 20px;}
+.boxR .rightMenu li a.active{color:#000; background-color:transparent;}
+.boxR .rightMenu li a:hover	{color:#000; background-color:transparent;}
+/* --------------------------------------------------- preFooterInner ---------------------------------------------------- */
+.preFooterInner					{clear:both; background-position:0 0; background-color:#FEFEFE; height:165px; position:relative;  display:block;}
+.preFooterInner h3				{padding:30px 0 0 0; color:#818080; font-size:16px;}
+.preFooterInner h3 a			{color:#D30C04;}
+.preFooterInner h3 a:hover		{color:#1b7f8d; text-decoration:none;}
+.preFooterInner p				{padding: 10px 15px 10px 0px; width:270px; margin:0;}
+.preFooterInner .preFooterImage {position:absolute; top:20px; right:0;}
+.preFooterInner .preFooterLink	{background-position:-800px -146px; padding:0 0 0 15px;}
+/* --------------------------------------------------- Tables ---------------------------------------------------- */
+table			{border:solid 1px #dedede; border-spacing:1px; padding:2px; margin:10px 0 20px 0;}
+table th		{background:#d7d6d6; color:#000; padding:10px 15px; border-spacing:0px 5px; text-align:left; font-size:12px;}
+table td		{padding:10px 15px; background:#f5f3f3;}
+table tr.alt td {background:#eae8e8;}
+/*-------------------------------------------------- Video Player --------------------------------------------------*/
+.videoPlayer	{width:600px; height:330px; display:block; position:relative; margin:10px 0 20px 0;}
+.videoPlayer2	{width:584px; height:294px; display:block; position:relative; padding:12px 20px 12px 12px;}
+.videoPlayerQA	{width:540px; height:333px; display:block; position:relative; padding:12px 20px 12px 12px;}
+/*--------------------------------------------------  Footer -------------------------------------------------- */
+.siteFooter .download		{position:absolute; right:20px; top:20px; cursor:pointer;}
+.siteFooter .facebook		{position:absolute; right:200px; top:20px; cursor:pointer;}
+.siteFooter .footerLogo		{padding:25px 0 21px 20px;}
+.siteFooter .footerText a	{position:absolute; top:23px; left:180px; color:#555555; border-left:1px solid #1a1a1a; padding:10px 0 10px 10px; font-size:9px; width:350px;}
+.siteFooter hr		{margin:0; color:#21211f; border-top:solid thin; display:block; height:1px; position:relative; border-color:#21211f;}
+.siteFooter a		{color:#777;}
+.footerLeft			{float:left; width:610px; position:relative; display:block; border-right:1px solid #292829;}
+.footerRight		{float:left; width:365px; position:relative; display:block;}
+.footerLeft .inner	{margin:0; padding:0 20px 0 25px;}
+.footerRight .inner {margin:0 0 0 20px; padding:0 20px 0 20px;}
+.siteFooterCont h3	{margin:0 0 5px 0; font-size:13px; clear:both;}
+.siteFooterCont p	{margin:0 0 20px 0; font-size:10px;}
+.siteFooterCont ul	{list-style-type:none; margin:2px 0 15px 0;}
+.siteFooterCont ul li{float:left; width:135px; background:url('/assets/images/li4.gif') no-repeat 0 2px; padding-left:15px;}
+.footerRight .h3	{margin:20px 0 5px 0;}
+.siteFooterCont .imgFloatLeft {float:left; margin:5px 10px 5px 0; position:relative;}
+.siteFooterCont .small {font-size:10px; color:#777; margin:15px 0 0 0;}
+#theFooter			{background:#000; color:#777; position:relative;}
+#theFooter p 		{padding:15px 20px 25px 20px; width:456px; font-size:9px;}
+#theFooter .year	{display:inline-table;}
+#theFooterGames		{clear:both; display:block; background-color:#000; border-bottom:1px solid #21211f;}
+#theFooterGames p	{padding:10px 20px;  /*IE7 Fix*/ *padding:0 20px 10px 20px; font-size:9px;}
+#theFooterGames a	{padding:0 3px;}
+#logos 				{background-position:-20px -100px; width:448px; height:49px; position:absolute; top:10px; right:20px}
+#rational			{display:block; position:absolute; top:0; left:0; width:100px; height:49px; cursor:pointer;}
+#over18				{display:block; position:absolute; top:0; left:404px; width:50px; height:49px; cursor:pointer;}
+#iom				{display:block; position:absolute; top:0; left:285px; width:115px; height:49px; cursor:pointer;}
+#gameCare			{display:block; position:absolute; top:0; left:228px; width:55px; height:49px; cursor:pointer;}
+/* --------------------------------------------------- embeded Video -------------------------------------------- */
+.embededVideo {position:relative; display:block;}
+.embededVideoCover {position:absolute; left:50%; top:50%; height:58px; width:58px; z-index:102; background:url('/assets/images/design/play.gif') no-repeat; margin:-29px 0 0 -29px;}
+.embededVideoCover:hover {background:url('/assets/images/design/play-hover.gif') no-repeat;}
+.embededVideoIcon {position:absolute; top:50%; left:50%; margin-left:-25px; margin-top:-25px; z-index:160;}
+.videoHeader {border:5px solid #CCC; width:550px; height:300px;}
+#rotateN, #rotateN2 {background:url('/assets/images/design/forward_b.jpg'); width:9px; height:16px; float:right; display:block; text-indent:-1000px; margin:14px 12px 0 0; position:absolute; top:0; right:0;}
+#rotateN:hover, #rotateN2:hover {background-image:url('/assets/images/design/forward_b_h.jpg');}
+#rotateP, #rotateP2 {background:url('/assets/images/design/backward_b.jpg'); width:9px; height:16px; float:right; display:block; text-indent:-1000px; margin:14px 8px 0 0; position:absolute; top:0; right:20px;}
+#rotateP:hover, #rotateP2:hover {background-image:url('/assets/images/design/backward_b_h.jpg');}
+#commRotator {overflow:hidden; height:170px; width:618px; position:relative;}
+#commRotator2 {overflow:hidden; height:330px; width:618px; position:relative;}
+#commRotator div.slide, #commRotator2 div.slide {position:absolute; width:618px;}
+/* Video Takeover */
+.videoBox {background-color:#000000; width:600px; height:356px; border:1px solid #3d3d3d; overflow:hidden; position:relative; z-index:152; padding:21px 0 0 0; color:#a0a0a0;}
+.closeButton {text-decoration:none; background-position:0 -58px; position:absolute; right:5px; top:1px; width:20px; height:20px;}
+.closeButton:hover {text-decoration:none; background-position:0 -78px;}
+.titleBar {position:absolute; left:0px; top:0px; width:100%; height:14px; padding:5px 0; overflow:hidden; border-bottom:1px solid #3d3d3d; background:url('/assets/images/title-bar.png') repeat-x #4f4f4f; padding-left:10px;}
+.videoFooter {height:81px; border-bottom:1px solid #3d3d3d; background:url('/assets/images/videofooterbg.png') repeat-x #000; position:relative;}
+.videoFooter .play {position: absolute; bottom:0; left:0; background:url('/assets/images/video-play.png') no-repeat; width:601px; height:81px;}
+.videoFooter .download {position: absolute; bottom:0; right:15px; background:url('/assets/images/buttons/video-download.png') no-repeat; width:166px; height:81px;}
+.videoFooter .facebook {position: absolute; bottom:0; right:195px; background:url('/assets/images/buttons/video-facebook.png') no-repeat; width:166px; height:81px;}
+/* --------------------------------------------------- Accordian ---------------------------------------------------- */
+.tabsWrap {background-color:#ecebeb; border:1px solid #e0e0e0; padding:4px; margin:0 0 10px 0;}
+.exHolder {border:1px solid #cfcfcf;}
+.exControl {padding:8px 5px 6px 10px; font-weight:bold; font-size:11px; cursor:pointer; background:url('/assets/images/design/accordian/expander-bg.jpg') repeat-x #3399cc; position:relative; text-transform:uppercase; height:17px;}
+.exControl h2 {padding:0; border:none; font-size:11px; margin:0; text-transform:capitalize; color:#404040;}
+.exControl a {text-decoration:none;}
+.exControlLink, .exControlPlusLink, .exControlMinusLink {background-color:#dbdad5; text-decoration:none; text-align:center; width:10px; line-height:10px; position:absolute; top:7px; right:10px; border:1px solid #666; color:#000; font-size:14px;}
+.exControlMinusLink {background:transparent;}
+.exContent {overflow:hidden; background-color:#fafafa; position:relative; display:block;}
+.exContent p {float:left; width:265px; border-right:1px solid #CCC; margin:15px; padding:0 25px 0 0;}
+.exContent h3 {font-size:1.2em; background: none; margin:15px 25px 0px 25px;}
+.exContent ul {float:left; width:255px; margin:15px 10px;}
+.exContent ul li {background:url('/assets/images/design/nav-li-active.gif') no-repeat; list-style-type:none; padding:0 0 7px 20px;}
+.exContent ol {margin:15px 10px;}
+.exContentAlt {padding:0 15px; border:none;}
+.exContentAlt p {float:none; width:95%; margin:15px 0; padding:0 25px 0 0; border:none;}
+.exContentAlt h3 {font-size:1.2em; background: none; margin:15px 25px 0px 25px;}
+/*------------------------------------------------- Regural Tabs -------------------------------------------------*/
+.tabs {color:#000; position:relative; display:block; border:1px solid #CCC; margin:10px 0; padding:0 0 1px 0;}
+.tabs .tabNav {width:100%; font-size:1.1em; border-bottom:1px solid #CCC; height:40px; background:url('/assets/images/design/tabbg.png') repeat-x;}
+.tabs .tabNav a {color:#000; position:relative; display:block; float:left; cursor:pointer; text-decoration:none; font-weight:bold; outline:none; padding:15px 10px 0 10px; border-right:1px solid #CCC; height:25px;}
+.tabs .tabNav .t {display:block; float:left; height:25px; padding-top:15px;}
+.innerTab {padding:10px 20px;}
+/*------------------------------------------------- Regural TabContents -------------------------------------------------*/
+.tabs .tabContent {display:block; clear:both; background:#fefefe;}
+/*------------------------------------------------- Active Tabs -------------------------------------------------*/
+.tabs .tabNav a:hover, .tabs .tabNav a.active {color:#1b7f8d; padding-top:15px; background: #FFF; height:26px; background:url('/assets/images/design/tabbgover.png') repeat-x;}
+div.tabs div.tabNav a.last {border:none;}
+/*------------------------------------------------- Regural Tabs -------------------------------------------------*/
+#regTabs			{color:#000; position:relative; display:block; border:1px solid #CCC; margin:10px 0; padding:0 0 1px 0;}
+#regTabs .tabNav	{width:100%; font-size:1.1em; border-bottom:1px solid #CCC; height:40px; background:url('/assets/images/design/tabbg.png') repeat-x;}
+#regTabs .tabNav a	{color:#000; position:relative; display:block; float:left; cursor:pointer; text-decoration:none; font-weight:bold; outline:none; padding:15px 10px 0 10px; border-right:1px solid #CCC; height:25px;}
+#regTabs .tabNav .t {display:block; float:left; height:25px; padding-top:15px;}
+.innerTab			{padding:10px 20px;}
+/*------------------------------------------------- Regural TabContents -------------------------------------------------*/
+#regTabs .tabContent {display:block; clear:both; background:#fefefe;}
+/*------------------------------------------------- Active Tabs -------------------------------------------------*/
+#regTabs .tabNav a:hover, #regTabs .tabNav a.active {color:#1b7f8d; padding-top:15px; background: #FFF; height:26px; background:url('/assets/images/design/tabbgover.png') repeat-x;}
+div#regTabs div.tabNav a.last {border:none;}
+
+.aHeader	{position:relative; padding:28px 25px 23px 25px;}
+.aContent	{position:absolute; left:675px; top:50px; color:#FFF; width:200px;}
+.aHeader .downloadPlay a{color:#FFF;}
+.aHeader .downloadPlay	{font-size:16px; font-weight:bold; color:#F00; position:absolute; left:675px; top:150px; border:2px solid #4a4a4a; background:url('/assets/images/design/download-button.png') repeat-x #000; padding:10px 10px 10px 10px;}
+
+/*------------------------------------------------- Languages -------------------------------------------------*/
+.languages		{width:165px; float:left; position:relative; font-size:13px; font-weight:bold;}
+.languages li	{list-style-type:none; background-position:-500px -163px; padding:1px 0 1px 15px; margin:2px 0 5px 5px;}
+.languagesP ul	{width:165px; float:left; position:relative; font-size:13px; font-weight:bold;}
+.languagesP li  {list-style-type:none; padding:1px 0 1px 10px; margin:0;}
+.languagesP li a{background-position:-500px -163px; margin:2px 0 5px 0px; padding:1px 0 1px 15px;}
+/*------------------------------------------------- Tooltip -------------------------------------------------*/
+.tooltip 			{position:relative; font-size:10px;}
+.tooltip:hover div 	{left: 14px; display:block;}
+.tooltiptable		{font-weight: bold; left: 0px; position: absolute; text-align: left; z-index: 100; display:none; background:#F5F5F5; border:2px solid #dedede; padding:10px; white-space:nowrap;}
+/* -------------------------------------------------- Video Gallery -------------------------------------------------- */
+.hpVideoItem 				{float:left; width:113px; text-align:center; color:#fff; font-size:11px; font-weight:bold; margin:0 33px 0 0; position:relative;}
+.hpVideoItem img 			{border:5px solid #d7d7d7; height:68px; width:113px; z-index:1110; position:relative;}
+.videoHolder 				{width:582px; background-color:#151515; position:relative; color:#fff; text-align:left; margin: 12px 0 0 12px;}
+.videoHolder .header 		{font-size:16px; font-weight:bold; color:#9c1a1a; padding:8px; border-bottom:1px solid #484848;}
+.videoHolder .header strong {color:#e3e3e3;}
+.videoHolder .video 		{top:30px; height:294px;/*width:600px;*/ background-color:#000; border:1px solid #575857; overflow:hidden;}
+.videoHolder .footer 		{border-top:1px solid #484848; bottom:0px; width:100%;}
+.videoHolder .description 	{padding:10px; width:580px; border-top:1px solid #484848; bottom:0px;/*height:50px;*/;}
+.videoHolder .social		{float:right; margin-top:5px; margin:0 5px 5px 0;}
+.previewHolder 				{width:581px; height:150px; margin-left:11px; overflow:hidden;}
+.hpVideoItem .camera 		{position:absolute; bottom:10px; right:0; z-index:10000; width:28px; height:26px; border:none;}
+#vidN, #vidP				{display: block; float: right; width: 9px; height: 16px; overflow: hidden; text-indent: -1000px; cursor:pointer;}
+#vidN 						{background: url('/assets/images/design/forward_b.jpg') no-repeat scroll 0 0 #fafafa;}
+#vidP 						{background: url('/assets/images/design/backward_b.jpg') no-repeat scroll 0 0 #fafafa; padding-left:8px;}
+.previewTitle 				{margin:13px 0; font-weight:bold; color:#fff; font-size:12px; text-transform:uppercase; border-bottom:1px solid #dedede; overflow:visible; height:8px;}
+#vidButtons a 				{height:10px; width:10px; display:block; float:left; background-color:#ccc; margin-left:5px; text-decoration:none; overflow:hidden; outline:none; border:1px solid #b8b8b8;}
+#vidButtons a.selected, #vidButtons a:hover {background-color:#d7121c;}
+.slide 			{float:left; margin-left:0px; margin: 0px 12px 50px 0; position: absolute; width:600px;}
+#videoRotator 	{width:600px; height:120px; overflow:hidden; position:relative;}
+#vidButtons 	{float:right; margin-top:2px; padding:0 10px; background-color:#fafafa;}
+/*--------------------------------------------------- Search -------------------------------------------------*/
+#searchTest 	{border:none; font-size:17px; width:390px; background:none; padding:10px 10px 20px 10px; position:relative; z-index:1111;}
+#inputWrap 		{position:absolute; top:105px; left:60px;}
+.searchResults 	{position:absolute; top:0; left:0; border:1px solid #ccc; width:400px; background:#FFF; z-index:1000;}
+.searchResults a, .searchResults a:visited {text-decoration:none; color:#0f808e; font-weight:bold;}
+.searchResults li {border-bottom:1px dotted #030303; padding:0px 7px 20px 20px; margin-top:20px; background:url('/assets/images/rm-li.gif') no-repeat 0px 5px;}
+.searchResults li.last {border-bottom:0px dotted #030303; padding-bottom:0px;}
+.searchResults ul {list-style:none; padding:20px;}
+#fbi 		{position:relative; z-index:20; background:#FFF; text-align:center;}
+.proOnline 	{margin:10px 0 0 0;}
+.sLink 		{cursor:pointer;}
+.innerlast h3 a:link, .innerlast h3 a:visited, .inner h3 a:link, .inner h3 a:visited, .leftCol h2 a:link, .leftCol h2 a:visited, .portalLeft h2 a:link, .portalLeft h2 a:visited {color:#000;}
+.innerlast h3 a:hover, .inner h3 a:hover, .leftCol h2 a:hover, .portalLeft h2 a:hover {color:#1b7f8d; text-decoration:none;}
+.gc-bubbleDefault {display:none;}
+.btmOffers		{display:block; padding:25px 0 25px 0px; position:relative; font-weight:bold; color:#999; text-align:center;}
+.btmOffers span {margin:0 29px;}
+ul.sublist 		{margin:0 !important;}
+ul.subList li 	{padding:0 !important; list-style-type:disc !important; background:none !important;}
+/* Toolkit */
+.backToMain {background:url('/assets/images/design/back.jpg') no-repeat; padding:5px 0 0 35px; font-weight:bold;}
+/* notif Box */
+.notifBox			 	{border:6px solid #dfddde; padding:4px; background:#FFF; margin-bottom:25px;}
+.notifBox .boxWrap 		{background:#f7f5f6; padding:10px; position:relative;}
+.notifBox .notifHeader 	{display:block; font-weight:bold; font-size:13px; padding:3px 0 10px 40px; background:url('/assets/images/design/toolkit/notifbox.jpg') no-repeat #f7f5f6;}
+.notifBox notifPara, .notifBox p {display:block; padding:0;}
+.notifBox ul, .notifBox ol {margin:10px; padding:0 10px;}
+/* Old Styles */
+/* PROMOTIONS */
+.promoBox 			{border-bottom:1px solid #DED8BF; clear:both; padding:10px 0;}
+.promoBoxHeader 	{border-bottom:1px solid #DED8BF; clear:both;}
+.promoBox .strong	{font-weight:bold;}
+.promoBox p 		{padding-bottom:0;}
+.txtBig 			{font-size:13px; font-weight:bold;}
+.imgAlignLeft 		{float:left; padding:0 15px 5px 0;}
+.imgAlignRight 		{float: right; padding: 0 0 5px 15px;}
+/*Daves Tabs*/
+.dTabsHolder {position:relative;}
+.dTabsHolder .dTabs {}
+.dTabsHolder .dTabs a {display:block; padding-top:4px; padding-bottom:4px; padding-left:6px; padding-right:6px; background-color:#f0f0f0; text-decoration:none; color:#000; outline:none;}
+.dTabsHolder .dTabs a.active {background-color:#bbcce0; color:#fff;}
+.dTabsHolder .content {}
+.dTabsHolder .content .tabContent {margin-bottom:5px; padding:10px;}
+.style1 {width:600px;}
+.style1 .dTabsHolder {border:1px solid #ccc; margin-top:43px;}
+.style1 .dTabsHolder .dTabs {position:absolute; top:-38px; left:-1px; border-top:1px solid #ccc; border-left:1px solid #ccc; border-right:1px solid #ccc; width:100%; background: url('/assets/images/design/tabbg.png') repeat-x scroll 0 0 transparent;}
+.style1 .dTabsHolder .dTabs a {background: url('/assets/images/design/tabbg.png') repeat-x scroll 0 0 transparent; height: 26px; padding-top: 15px; float:left; border-right: 1px solid #CCCCCC; color: #000000; cursor: pointer; display: block; font-weight: bold; height: 25px; outline: medium none; padding: 15px 10px 0; position: relative; text-decoration: none;}
+.style1 .dTabsHolder .dTabs a.active {background: url('/assets/images/design/tabbgover.png') repeat-x scroll 0 0 transparent; color:#1B7F8D; border-bottom: 1px solid #fff;}
+.style1 .dTabsHolder .tabContent {padding: 20px 20px;}
+.imgCenter 			{text-align:center;}
+.starH 				{padding: 0 0 0 20px;}
+#boxRewards 		{background: URL('/assets/images/graphics/fpp/box_rewards.jpg') no-repeat; width:498px; height:223px; padding:0 0 9px 0;}
+#boxRewards .p1 	{color:#FFFFFF; margin:0; padding:0 21px 0 190px; line-height:1em;}
+#boxRewards .p2 	{color:#FFFFFF; margin:0; padding:10px 21px 0 190px; line-height:1em;}
+#boxRewards ul 		{color:#FFFFFF; margin:0; padding:15px 21px 5px 190px; list-style:none;}
+#boxRewards li 		{padding: 0px 0px 2px 12px; margin: 0; background: URL('/assets/images/graphics/fpp/blt_star2.gif') 0 0.3em no-repeat;}
+#boxRewards a 		{color:#ff0000;}
+
+.red-arrow 			{color: #d30c04;}
+/* Women */
+.blogFeed 			{padding:20px 20px 0 20px;}
+.blogFeed h3 		{margin:0 0 15px 0; padding:0; color:#1B7F8D;}
+.blogFeed .small 	{margin-top:0;}
+.blogFeed p 		{margin-left:130px;}
+.blogFeed hr 		{margin:0; padding:0;}
+.blogFeed .boxLink  {background-position:-800px -146px;  padding:0px 0 0 15px; margin:0 0 10px 145px; clear:both;}
+.clearAbout 		{clear:both; height:30px;}
+.review 			{background:#FFF; color:#929293; padding:15px; margin:0 10px 0 0; display:block;}
+.reviewSignature 	{background:url('/assets/images/design/rewiew.gif') no-repeat 20px 0; padding:15px 15px 10px 15px; margin:0 0 5px 0; display:block; font-size:11px; font-style:italic; color:#a69d95; text-indent:15px;}
+
+
+/* Rotator */
+.banner 		{height:259px; width:980px; position:relative; background:url('/assets/images/header-shade.png') no-repeat bottom;}
+.rotateHolder 	{position:absolute; left:25px; top:25px; width:930px; height:215px; z-index:2; background:#000; margin-top:3px;}
+
+#rotatorMobile 			{position:relative; width:100%; height:100%; height:215px; overflow:hidden;}
+#rotatorMobile div 		{margin-bottom:30px;}
+#rotatorMobile div.slide{position:absolute; display:none; width:980px; height:100%; top:0px; left:0px; margin-top:0px; text-align:left;}
+
+
+.bHolder {clear:both; text-align:center;}
+.bHolder a {height:9px; width:9px; float:left; margin-right:5px; text-decoration:none; background-color:#262626; color:#000; outline:none; overflow:hidden;}
+.bHolder a.selected {background-color:#e41e26; color:#fff;}
+#rotateBanner {position:absolute; top:0; left:0;}
+.rotateHolder #bHolder.bHolder {position:absolute; top:93%; left:50%; z-index:7; font-size:.9em;}
+.rotateHolder #bHolder.bHolder a {height:9px; width:9px; float:left; margin-right:5px; text-decoration:none; background-color:#262626; color:#000; outline:none; overflow:hidden;}
+div.rotateHolder span#bHolder.bHolder a.selected {background-color:#e41e26; color:#fff;}
+.rotateHolder a:hover {text-decoration:none;}
+.rotateHolder .aContent {position:absolute; left:650px; top:120px; color:#FFF; width:200px; z-index:10; text-decoration:none;}
+.downloadPlay a {color:#FFF;}
+.rotateHolder .downloadPlay {font-size:16px; font-weight:bold; color:#F00; position:absolute; left:650px; top:125px; border:2px solid #4a4a4a; background:url('/assets/images/design/download-button.png') repeat-x #000; padding:10px; z-index:10;}
+#rotatorWomen {position:relative; width:100%; height:100%; overflow:hidden;}
+#rotatorWomen div.slide {position:absolute; display:none; width:980px; height:100%; text-align:left;}
+.downloadPlay {font-size:16px; font-weight:bold; color:#F00; position:absolute; left:650px; top:160px; border:2px solid #4a4a4a; background:url('/assets/images/design/download-button.png') repeat-x #000; padding:10px 15px; z-index:10;}
+
+
+/*----- Cookie -----*/
+#cookieFixed 	{background:url('http://www.psimg.com/scripts/cookie/images/bg-cookie.png') repeat-x #060606; position:fixed; bottom:0; width:100%; border-top:1px solid #5e5e5e; z-index:2100; display:none;}
+#cookieFixed #cookie 		{width:940px; margin:auto; height:40px; padding:20px; border-top:none; background:url('http://www.psimg.com/scripts/cookie/images/bg-cookie.png') repeat-x #000;}
+#cookieFixed #cookieFixed #cookie .cHeader{color:#999;  float:left;position:relative; font-size:20px; line-height:1em; font-family:Arial, Helvetica, sans-serif; width:150px;}
+#cookieFixed #cookie .cText	{color:#CCC; width:600px; float:left;position:relative; padding:0 25px 0 15px; margin:0 0 10px 15px; font-size:10px; line-height:1em; border-left:1px solid #333;}
+#cookieFixed #cookie .cClose	{float:left; cursor:pointer; margin:3px 0 0 0; padding:7px 8px 8px 8px; border:1px solid #575757; background:#2d2d2d; white-space:nowrap;}
+#cookieFixed #cookie a 		{color:#FFF; font-weight:bold;}
+#cookieFixed .cHeader{color:#999;  float:left;position:relative; font-size:20px; line-height:1em; font-family:Arial, Helvetica, sans-serif; width:150px;}
+/*----- End Cookie -----*/
+
+/* ----- Smart Box ----- */
+#sb_Wrap {-webkit-text-size-adjust: none; background-image: linear-gradient(bottom, rgb(200,200,200) 27%, rgb(245,245,245) 73%); background-image: -o-linear-gradient(bottom, rgb(200,200,200) 27%, rgb(245,245,245) 73%); background-image: -moz-linear-gradient(bottom, rgb(200,200,200) 27%, rgb(245,245,245) 73%); background-image: -webkit-linear-gradient(bottom, rgb(200,200,200) 27%, rgb(245,245,245) 73%); background-image: -ms-linear-gradient(bottom, rgb(200,200,200) 27%, rgb(245,245,245) 73%); background-image: -webkit-gradient( linear, left bottom, left top, color-stop(0.27, rgb(200,200,200)), color-stop(0.73, rgb(245,245,245)) ); border-bottom:1px solid #999; margin:auto; text-align:center; position:fixed; top:0; left:0; width:100%; z-index:200;}
+#sb {width:850px; padding:1em 0 1em 0; position:relative; margin:auto; display:block;}
+#sb .clear {display:block;}
+.sb_close {position:absolute; left:1em; top:1em; cursor:pointer;z-index:201;}
+#sb_ico {margin:15px 0 0 0;}
+
+/*----- NET -----*/
+.hpBox ul li, .hpRightTextHeadline, .hpRightText, .hpLeftTextHeadline, .hpLeftText, #hpContainer h3, #hpContainer h2, #hpContainer h1, .hpBoxed50 p, .hpSignature, .hpRight50 p, .hpLeft50 p, .hpBoxHeadline, .hpBoxRight50 p, .hpBoxLeft50 p{-webkit-text-size-adjust: 100%; -moz-text-size-adjust: 100%;-ms-text-size-adjust: 100%;}
+
+#hpContainer h1, #hpContainer h2, #hpContainer h3, .hpHighlight, .hpNav p, .hpBoxHeadline, .hpStepHeadline, .hpStepSubHeadline, .hpRightTextHeadline, .hpLeftTextHeadline, .hpPromoText, .quote 					{font-family:Arial, Helvetica, sans-serif;}
+
+
+img.inTextImg 	{padding:0; margin:0; vertical-align:middle;}
+.floatLeft 		{float:left; padding:0 20px 20px 0;}
+.floatRight		{float:right; padding:0 0 20px 20px;}
+
+.pageWrap 		{position:relative; background:#f4f4f4; padding:22px;}
+.page 			{position:relative; background:#fafafa; padding:20px 30px; border:1px solid #CCC;}
+.soHeader		{margin:15px 0 0 20px !important; padding:0;}
+
+/* ----- Boxes ----- */
+.pBoxWrap 				{position:relative; border:1px solid #dfdfdf; margin:25px;}
+.pBoxWrap.top			{margin-top:0;}
+.pBox 					{position:relative; border:3px solid #fff; background:#f5f5f5; clear:both;}
+.pBox .row 				{margin:20px 0 10px 0;}
+.pBox .row.rowLast		{margin:10px 0 20px 0;}
+.pBoxWrap.last			{margin-bottom:0;} 
+
+.pBox.developSkillsBox {padding:0 29px;}
+.pBox.developSkillsBox h1 {margin: 0 0 0 -9px ; padding:20px 0 20px 0 !important;}
+.pBox.developSkillsBox .hpHighlight {clear:none; padding:0 0 40px 0;}
+.pBox.developSkillsBox .row {padding:10px 0 0 0;}
+.pBox.developSkillsBox .row .developSkillBlock {display:block; float:left; padding:0 21px 0 0; position:relative; width:400px;}
+.pBox.developSkillsBox .row .developSkillBlockEnd {padding:0 0 0 21px;} 
+.pBox.developSkillsBox .row .developSkillBlock p {margin-left:140px;}
+.pBox.developSkillsBox .right, .pBox.developSkillsBox .left {background:none; border-top:1px dotted #BFBFBF; display:block; float:right; height:1px; margin:20px 0 30px 0; width:410px;}
+.pBox.developSkillsBox .left {float:left;}
+
+.pBox.developSkillsBox .hpBoxHeadline 	{font-size:16px; display:block; font-weight:bold;}
+
+
+/* --------------------------------------------------- Standard ---------------------------------------------------- */
+/* ------ New Portal Banner ------ */
+.portalMainBanner 		{position:relative; padding:3px 25px 14px 25px !important; z-index:1000;}
+.portalMainLinks		{font-family:Arial, Helvetica, sans-serif; font-size:15px;list-style-type:none; position:absolute; left:470px; top:160px; width:470px;}
+.portalMainLinks a 		{color:#FFF;}
+.portalMainText			{display:block; float:left; padding-right:30px;}
+.portalMainText.last	{padding-right:0;}
+
+/* ----- NET -----*/
+
+.siteContent  {padding-bottom:10px}
+/* Rotator */
+.banner 			{height:320px;width:980px;position:relative;background:url('/assets/images/bg2-content.jpg') repeat-x top #FFF;z-index:10}
+.rotateHolder 		{position:absolute;left:24px;top:24px;width:930px;height:288px;background-color:#000;z-index:2}
+#rotator 			{position:relative;width:100%;height:100%;overflow:hidden;border:none;
+}
+#rotator div.slide 	{position:absolute;display:none;width:930px;height:100%;background-color:#000;text-align:left; margin:0}
+
+.bHolder 			{clear:both; text-align:center;}
+.bHolder a 			{height:9px;width:9px;float:left;margin-right:5px;text-decoration:none;background-color:#262626;color:#000;outline:none;overflow:hidden}
+.bHolder a.selected {background-color:#e41e26;color:#fff}
+#rotateBanner 		{position:absolute;top:0;left:0}
+
+.rotateHolderPromo  		{width:940px;height:345px;background-color:#000; position:relative;}
+.rotateHolderPromo #bHolder {position:absolute; bottom:10px; left:50%;z-index:150}
+ 
+#pokerDownload, .pokerDownload {position:absolute;top:185px;left:510px;z-index:1000}
+ #hpDl {position:absolute;top:183px;left:445px;z-index:1000}
+
+div.rotateHolder span#bHolder.bHolder 				{position:absolute;top:100%;margin-top:10px;left:50%;z-index:7;font-size:.9em}
+div.rotateHolder span#bHolder.bHolder  a 			{height:9px;width:9px;float:left;margin-right:5px;text-decoration:none;background-color:#262626;color:#000;outline:none;overflow:hidden}
+ div.rotateHolder span#bHolder.bHolder  a.selected 	{background-color:#e41e26;color:#fff}
+.hpBanner { position:relative; margin:0px 25px -10px 25px; padding:0 0 15px 0;  background:url('/assets/images/header-shade.png') no-repeat bottom;height:280px;}
+
+.hpBannerWrap {margin:0 0 0 25px; position:relative}
+.hpBannerWrap .hpBanner { position:relative; margin:0 25px -10px 0; padding:0 0 15px 0;  background:url('/assets/images/header-shade.png') no-repeat bottom;height:280px;}
+
+.hpBanner #pokerDownload { top:170px;}
+
+div.hpBanner span#bHolder.bHolder 				{position:absolute;top:100%;margin-top:-10px;left:50%;z-index:7;font-size:.9em}
+div.hpBanner span#bHolder.bHolder  a 			{height:9px;width:9px;float:left;margin-right:5px;text-decoration:none;background-color:#262626;color:#000;outline:none;overflow:hidden}
+ div.hpBanner span#bHolder.bHolder  a.selected 	{background-color:#e41e26;color:#fff}
+
+/* ----- Mobile Rotator ----- */
+#hpMobileRotatorWrap 		{height:285px; width:356px; position:relative; margin-bottom:15px; z-index:10}
+#hpMobileRotator 			{height:285px; width:356px;position:relative; }
+#hpMobileRotator 			{position:relative;width:100%;height:100%;overflow:hidden;}
+#hpMobileRotator div.slide 	{position:absolute;display:none;width:356px;height:100%; margin:0}
+
+
+div#hpMobileRotatorWrap span#hpbHolder.hpbHolder 				{position:absolute;top:265px;left:50%;z-index:10;font-size:.9em; display:block}
+div#hpMobileRotatorWrap span#hpbHolder.hpbHolder  a 			{height:9px;width:9px;float:left;margin-right:5px;text-decoration:none;background-color:#262626;color:#000;outline:none;overflow:hidden}
+ div#hpMobileRotatorWrap span#hpbHolder.hpbHolder  a.selected 	{background-color:#e41e26;color:#fff}
+
+/* ----- HP v2 ----- */
+.clearLeft 						{clear:left}
+
+
+#hpContainer 					{background:#FFF; padding:25px;}
+#hpContainer .hpInner 			{padding:0 25px;}
+
+#hpContainer h1, #hpContainer h2{font-size:26px; padding:12px 0 15px 0;}
+#hpContainer h2					{margin-bottom:5px}
+#hpContainer h3					{font-size:20px; color:#000; padding:25px;}
+#hpContainer .floatLeft			{float:left}
+#hpContainer .floatRight		{float:right}
+#hpContainer .red				{font-weight:bold; color:#d30c04}
+#hpContainer .extraSpace		{margin:0 0 15px 0}
+#hpContainer .extraSpaceTB		{margin:25px 0}
+#hpContainer .vidFix			{margin-top:-10px;}
+
+.hpDownloadLink					{font-size:21px; margin:0 0 15px 0 }
+/*.hpDownloadLink.onRight			{text-align:right; margin:15px 0; background:url('/assets/images/hp/dl-bg.gif') repeat-x 0 18px; }
+.hpDownloadLink .onRightBg		{background:#FFF; padding:0 0 0 25px;}*/
+
+.hpDownloadLink.onCenter		{font-size:19px;text-align:center; margin:0 0 15px 0; background-position:0 -388px; }
+.hpDownloadLink .onCenterBg		{background:#FFF; padding:0 25px;}
+
+.hpOverFloat 					{position:relative; display:inline; float:left; margin:10px 25px 15px 0}
+.hpShade						{background:url('/assets/images/hp/shade2.png') repeat-x bottom; padding-bottom:10px;}
+.hpOverFloat.first				{margin-left:40px;}
+.hpOverFloat.last				{margin-right:0px;}
+
+.ribbon 				{position:relative; margin:25px 0 25px 0; background-position:0 -200px; width:930px;  height:86px;}
+.ribbon .playPoker 		{position:absolute; top:12px; right:25px;}
+.ribbon .playFacebook	{position:absolute; top:12px; right:260px;}
+.ribbon .text 			{position:absolute; top:20px; left:40px; color:#FFF; font-size:18px; line-height:1.2em;}
+
+/* ----- Boxes ----- */
+.hpBoxWrap 				{position:relative; border:1px solid #dfdfdf; margin:15px 0 25px 0; }
+.hpBoxWrap.top			{margin-top:0;}
+.hpBox 					{position:relative; border:3px solid #fff; background:#f5f5f5; clear:both; /*Android Chrome fix*/max-height: 999999px; min-height: 397px }
+.hpBoxWrap.top .hpBox 	{min-height:inherit}
+.hpBox .hpBoxHeadline 	{font-size:16px; display:block; font-weight:bold;}
+.hpBox .floatLeft		{float:left}
+.hpBox ul 				{list-style-type: none; }
+.hpBox ul li			{background-position:-500px -161px; margin:0 0 0 120px; padding:0 0 0 10px; font-size:1em; color:#474747;}
+.hpBox .left	{}
+.hpBox .right	{}
+.hpBox .button 			{margin:10px 0 0 20px}
+.hpBoxText 				{background-position:-500px -163px; padding:0 50px 20px 15px; margin:0 0 0 20px; font-size:12px;}
+.hpBox span img 		{position:absolute; bottom:0}
+.hpBox span a img		{display:inline; right:0}
+
+.top .hpBox h1			{ padding:20px 0 20px 40px !important;}
+.hpBox h1				{ padding:50px 0 20px 20px !important;}
+.hpBox h1 .small		{font-size:18px; color:#000; font-weight:normal;line-height:1.4em }
+
+.top .hpBox h2			{font-size:21px; font-weight:normal; padding:0px 0 10px 40px !important; }
+.hpBox h2				{font-size:21px; font-weight:normal; padding:0 0 20px 0 !important;}
+
+
+.hpBox .hpHighlight		{font-size:18px; color:#000; padding:0 315px 15px 40px; line-height:1.2em}
+.hpBox .hpDownloadLink					{font-size:19px; margin:0 0 15px 40px }
+/*.hpBox .hpDownloadLink.onRight			{text-align:right; margin:15px 0; background:url('/assets/images/hp/dl-bg.gif') repeat-x 0 18px; }
+.hpBox .hpDownloadLink .onRightBg		{background:#FFF; padding:0 0 0 25px;}*/
+
+h3 span.or				{font-size:11px; font-weight:normal; position:absolute; right:10px; margin:10px 115px 0 0; display:inline;}
+h3 span.or img			{top:-4px; position:absolute}
+
+/* ----- 50-50 ----- */
+.hpBoxLeft50, .hpBoxRight50	{width:441px; float:left; display:block; position:relative; padding:0 0 20px 0; border-bottom:1px dotted #bfbfbf;
+/*- IE6 fix -*/  _background:#f5f5f5;}
+.hpBoxLeft50				{margin:30px 12px 10px 8px; 
+/*- IE6 fix -*/ _margin-left:3px;}
+.hpBoxRight50				{margin:30px 8px 10px 12px; 
+/*- IE6 fix -*/ _margin-right:0px;_margin-left:0px;}
+.hpBoxLeft50.last, .hpBoxRight50.last 		{border-bottom:none}
+.hpBoxLeft50 img, .hpBoxLeft50 .floatLeft 	{position:relative}
+
+.hpLeft50, .hpRight50	{width:390px; float:left; display:block; position:relative; padding:13px; outline:5px solid #c6c6c6; border:1px solid #FFF; background:url('/assets/images/hp/bg-hp-box.png') repeat-x bottom; color:#474747; line-height:1em; 
+/*- IE7 Outline fix -*/ *border:5px solid #c6c6c6; *width:380px;}
+.hpLeft50				{margin:30px 20px 30px 0;}
+.hpRight50				{margin:30px 0 30px 20px;}
+.hpLeft50 .floatLeft, .hpRight50 .floatLeft {margin:0 15px 0 0;}
+.hpLeft50 p, .hpRight50 p 					{line-height:1.3em;}
+.hpSignature			{ margin-top:15px;}
+
+.hpBox30				{width:240px; float:left; display:block; position:relative; padding:13px; outline:5px solid #c6c6c6; border:1px solid #FFF; background:url('/assets/images/hp/bg-hp-box.png') repeat-x bottom #FFF; color:#474747; line-height:1em; margin:5px 10px 30px 25px;
+/*- IE7 Outline fix -*/ *border:5px solid #c6c6c6; *width:230px;
+/*- IE6 fix -*/	_margin:5px 10px 30px 12px;}
+
+.hpBoxed50 				{width:390px; float:left; display:block; position:relative; padding:13px; outline:5px solid #c6c6c6; border:1px solid #FFF; background:url('/assets/images/hp/bg-hp-box.png') repeat-x bottom #FFF; color:#474747; line-height:1em; margin:5px 10px 30px 25px;
+/*- IE7 Outline fix -*/ *border:5px solid #c6c6c6; *width:380px;
+/*- IE6 fix -*/	_margin:5px 10px 30px 12px;}
+.hpBoxed50 img 			{margin:0 10px 0 0}
+
+.developSkillsBox { padding:0 40px;}
+.developSkillsBox h1 {margin:0; padding:20px 0 20px 0 !important}
+.developSkillsBox .hpHighlight { clear:none; padding:0 0 40px 0;}
+.developSkillsBox .row {padding:10px 0 0 0}
+.developSkillsBox .row .developSkillBlock {display:block; float:left; padding:0 21px 0 0; position:relative; width:400px}
+.developSkillsBox .row .developSkillBlockEnd {padding:0 0 0 21px } 
+.developSkillsBox .row .developSkillBlock p {margin-left:140px}
+.developSkillsBox .right, .developSkillsBox .left {background:none; border-top:1px dotted #BFBFBF; display:block; float:right; height:1px; margin:20px 0 30px 0; width:400px}
+.developSkillsBox .left {float:left}
+
+
+
+/* ----- HP Right Text ----- */
+.hpRight	{margin:0 0 0 430px;  /*Android Chrome fix*/max-height: 999999px;}
+.hpLeft		{width:461px; float:left; display:block; position:relative; padding:0 0 20px 15px;  /*Android Chrome fix*/max-height: 999999px;}
+/*.hpRightTextHeadline, .hpLeftTextHeadline{font-size:16px; font-weight:bold; background:url('/assets/images/hp/li.gif') no-repeat 0px 8px; padding:0 0 0 10px; color:#000;  }
+.hpRightTextBig, .hpLeftTextBig		{font-size:14px; background:url('/assets/images/hp/li.gif') no-repeat 0px 13px; padding:5px 0 15px 10px }*/
+.hpRightText, .hpLeftText		{color:#474747; padding:0 0 15px 10px} 
+.hpButtons			{margin:40px 0 25px 395px;}
+.hpButtons img		{margin:0 20px 0 0}
+
+/* ----- Promo Images ----- */
+.hpPromos 	{margin:15px 0 0 0}
+.hpPromo	{width:200px; margin:0 0 25px 25px; float:left; position:relative; text-align:center /* IE6 fix */ _display:inline;_margin:0 0 25px 15px}
+.hpPromo img{width:200px; height:127px; outline:5px solid #c6c6c6; border:1px solid #FFF;  /*- IE7 Outline fix -*/ *border:5px solid #c6c6c6; margin-bottom:10px;}
+.hpPromoText{color:#000; font-size:13px; text-align:center; display:block; font-weight:bold} 
+
+/* ----- Rating ----- */
+.ratingUser	{float:right}
+.ratingText	{clear:both; margin:10px 5px 0 0}
+
+/* ----- Quote ----- */
+.quote 			{font-size:17px; padding:0 0 30px 35px; position:relative}
+.quote .small 	{font-size:11px; color:#474747; margin-top:5px; display:block; font-weight:normal}
+.quote .qB		{left: 15px;  position: absolute; top: 3px; _left:-18px}
+
+/* ----- HP nav ----- */
+.hpNav					{width:300px; float:right; position:relative; margin:20px 0 0 20px}
+.hpNav p 				{border-left:1px dotted #dbdbdb; color:#000; text-transform:uppercase; padding:8px 8px 8px 25px; font-weight:bold; font-size:12px;}
+.hpNav ul 				{list-style-type:none; border-left:1px dotted #dbdbdb}
+.hpNav ul li			{padding:8px 15px 9px 25px; margin:0; background:none}
+.hpNav ul li span 		{font-weight:bold}
+.hpNav ul li.last 		{background:none;}
+
+/* ----- 404 ----- */
+body.short			{background-color:#D4D5D7}
+.error404 .hpHighlight 	{font-size:16px; color:#474747; padding:0 20px 15px 20px; line-height:1.2em}
+.hpHighlight					{font-size:18px !important; color:#000; padding:0 315px 15px 0; line-height:1.2em}
+
+
