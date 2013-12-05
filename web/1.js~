@@ -1,0 +1,5 @@
+function a() {
+a = "AAA";
+return a;
+}
+document.write("asdasd");
