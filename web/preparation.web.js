@@ -1,5 +1,5 @@
-var csssrc = document.getElementById('csssrc'),
-    cssdst = document.getElementById('cssdst'),
+var csssrc = document.getElementById('csssrc');
+    cssdst = document.getElementById('cssdst');
 
 document.getElementById('prepare').onclick = function() {
  
